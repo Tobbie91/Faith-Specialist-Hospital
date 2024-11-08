@@ -5,6 +5,7 @@ import Do3 from "../../images/Do3.webp";
 import Do4 from "../../images/Do4.webp";
 import Do5 from "../../images/Do5.webp";
 import Do6 from "../../images/Do6.webp";
+import ImageStories from "../../images/ImageStories.webp";
 
 export const navLinks = [
     {
@@ -105,4 +106,33 @@ export const navLinks = [
       },
     },
   ];
-  
+
+export const testimonials = [
+  {
+    id: 1,
+    title: "John's Journey to Mobility",
+    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    img: {
+      url: ImageStories,
+      alt: "do6",
+    },
+  },
+  {
+    id: 2,
+    title: "John's Journey to Mobility2",
+    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    img: {
+      url: ImageStories,
+      alt: "do6",
+    },
+  },
+  {
+    id: 3,
+    title: "John's Journey to Mobility3",
+    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    img: {
+      url: ImageStories,
+      alt: "do6",
+    },
+  },
+];
