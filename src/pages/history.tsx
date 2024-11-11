@@ -11,6 +11,7 @@ import WhoSection from "../components/About/history/whowearae";
 import StatsSection from "../components/About/history/stats";
 import Vision from "../components/About/history/Vision";
 import Values from "../components/About/history/Values";
+import MapComponent from "../components/map";
 
 const Hospital = () => {
   return (
@@ -22,7 +23,7 @@ const Hospital = () => {
       <Vision/>
       <Values/>
       <WhyChoose />
-  {/* <Map/> */}
+      <MapComponent/>
 <BookAppointment />
       <Footer />
     </div>
