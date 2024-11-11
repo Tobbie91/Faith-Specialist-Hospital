@@ -14,7 +14,7 @@ const WhoSection = () => {
               <StaticImage src="../../../images/whoImage.webp" alt="Doctor" />
             </div>
             <div className="lg:hidden mt-[2em] ">
-              <StaticImage src="../../images/whoImage.webp" alt="Doctor" />
+              <StaticImage src="../../../images/whoImage.webp" alt="Doctor" />
             </div>
             <WhoText />
           </div>

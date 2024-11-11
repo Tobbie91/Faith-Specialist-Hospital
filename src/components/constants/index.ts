@@ -31,7 +31,7 @@ export const navLinks: NavLink[] = [
       subLinks: [
         { id: "/#about/history", title: "About Faith Specialist Hospital", to: "/history" },
         { id: "/#about/services", title: "Our Services", to: "/services" },
-        { id: "/#about/team", title: "Our Team", to: "/teams" },
+        { id: "/#about/team", title: "Our Team", to: "/teamMembers" },
         { id: "/#about/gallery", title: "Our Gallery", to: "/gallery" },
       ],
     },

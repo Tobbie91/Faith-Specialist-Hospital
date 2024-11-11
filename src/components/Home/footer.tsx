@@ -21,9 +21,9 @@ const Footer = () => {
         <div className="grid grid-cols-2">
           <div className="flex flex-col pt-[2em] mb-8">
             <p className="lg:text-[16px] text-[white]">The Hospital</p>
-            <a href="/about" className="lg:text-[16px] text-[white] mb-4 mt-8">About Us</a>
+            <a href="/service" className="lg:text-[16px] text-[white] mb-4 mt-8">About Us</a>
             <a href="/gallery" className="lg:text-[16px] text-[white] mb-4">Our Gallery</a>
-            <a href="/team" className="lg:text-[16px] text-[white] mb-4">Our Team</a>
+            <a href="/teamMembers" className="lg:text-[16px] text-[white] mb-4">Our Team</a>
           </div>
           <div className="flex flex-col pt-[2em] mb-8">
             <p className="lg:text-[16px] text-[white]">Resources</p>

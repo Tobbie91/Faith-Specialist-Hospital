@@ -2,7 +2,7 @@ import React from "react";
 
 const BookAppointment = () => {
   return (
-    <div className="flex flex-col text-center justify-center items-center">
+    <div className="flex flex-col text-center justify-center items-center bg-[#F4F5F7] h-[304px]">
       <h1
         className="lg:text-[48px] text-center bg-clip-text text-transparent mt-[em]"
         style={{
