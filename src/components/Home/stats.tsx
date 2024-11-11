@@ -9,7 +9,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-10 bg-[white]">
+    <div className="flex justify-center items-center py-10 bg-[white] ">
       {stats.map((stat, index) => (
         <React.Fragment key={index}>
           <div className="flex flex-col items-center text-center px-9">

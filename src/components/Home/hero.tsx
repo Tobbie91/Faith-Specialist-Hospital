@@ -60,7 +60,7 @@ const HeroSection = () => {
   }, [totalImages]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[700px] overflow-hidden">
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)`, height: '100%' }}

@@ -11,7 +11,7 @@ const WhoSection = () => {
         <div className="px-[4.1%] py-6 lg:px-[4.2%] lg:pt-[40px] lg:pb-0 max-w-screen-xxl xxl:mx-auto">
           <div className="lg:flex justify-between items-center gap-8">
             <div className="hidden lg:block lg:w-[55%] mt-[3em]">
-              <StaticImage src="../../images/whoImage.webp" alt="Doctor" />
+              <StaticImage src="../../../images/whoImage.webp" alt="Doctor" />
             </div>
             <div className="lg:hidden mt-[2em] ">
               <StaticImage src="../../images/whoImage.webp" alt="Doctor" />

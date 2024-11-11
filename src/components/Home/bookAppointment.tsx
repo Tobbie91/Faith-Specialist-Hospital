@@ -4,7 +4,7 @@ const BookAppointment = () => {
   return (
     <div className="flex flex-col text-center justify-center items-center">
       <h1
-        className="lg:text-[48px] text-center bg-clip-text text-transparent"
+        className="lg:text-[48px] text-center bg-clip-text text-transparent mt-[em]"
         style={{
           backgroundImage:
             "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",

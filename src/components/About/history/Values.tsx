@@ -29,7 +29,7 @@ const Values = () => {
           </p>
         </div>
         <div className="">
-          <StaticImage src="../../images/ValueImage.webp" alt="LinkedIn" 
+          <StaticImage src="../../../images/ValueImage.webp" alt="LinkedIn" 
                 className=" ml-[2.7em] w-[537px] h-[526px] mb-4 rounded-lg"/>
         </div> 
       </div>

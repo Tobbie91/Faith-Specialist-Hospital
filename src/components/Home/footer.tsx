@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="flex gap-3">
           <StaticImage src="../../images/facebook.png" alt="Facebook" />
           <StaticImage src="../../images/instagram.png" alt="Instagram" />
-          <StaticImage src="../../images/linkedin.png" alt="LinkedIn" />
+          <StaticImage src="../../images/inkedin.png" alt="LinkedIn" />
         </div>
         <p className="text-[white]">© 2024 Faith Specialist Hospital. All rights reserved.</p>
       </div>

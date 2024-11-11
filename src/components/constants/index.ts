@@ -7,7 +7,16 @@ import Do5 from "../../images/Do5.webp";
 import Do6 from "../../images/Do6.webp";
 import ImageStories from "../../images/ImageStories.webp";
 
-export const navLinks = [
+interface NavLink {
+  id: string;
+  title: string;
+  to?: string;
+  titleTo?: string;
+  showToggle?: boolean;
+  subLinks?: { id: string; title: string; to: string }[];
+}
+
+export const navLinks: NavLink[] = [
     {
       id: "#landingPage",
       title: "Home",
@@ -15,13 +24,16 @@ export const navLinks = [
       titleTo: "/",
       showToggle: false,
     },
-  
-    {
+  {
       id: "/#about",
       title: "The Hospital",
-      to: "/about",
-      titleTo: "/about/",
-      showToggle: false,
+      showToggle: true,
+      subLinks: [
+        { id: "/#about/history", title: "About Faith Specialist Hospital", to: "/history" },
+        { id: "/#about/services", title: "Our Services", to: "/services" },
+        { id: "/#about/team", title: "Our Team", to: "/teams" },
+        { id: "/#about/gallery", title: "Our Gallery", to: "/gallery" },
+      ],
     },
     {
         id: "/#stories",
