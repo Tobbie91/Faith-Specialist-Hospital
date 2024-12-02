@@ -76,7 +76,7 @@ const renderLink = <IconComponentProps extends {}>({
 };
   return (
     <div className="mt-[4em] mb-[2em]">
-     <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
+     <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 ">
      <div className="flex flex-col pl-8">
           {renderLink({
             linkId: 'services',
@@ -126,7 +126,7 @@ const renderLink = <IconComponentProps extends {}>({
           <h3 className="lg:text-[30px] font-semibold">
             Deformity Correction and Pediatric Orthopedic <br /> Services
           </h3>
-          <div className="pr-[em] mt-[1em]">
+          <div className=" mt-[1em] pr-[1em]">
             <StaticImage
               src="../../../images/Deformity7.webp"
               alt="Hero Image 1"

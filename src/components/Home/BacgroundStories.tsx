@@ -3,14 +3,14 @@ import { StaticImage } from 'gatsby-plugin-image';
 //@ts-ignore
 const BackgroundSection = ({ children, padding = 'p-8' }) => {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative lg:min-h-screen ">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <StaticImage
           src="../../images/PatientStories.webp"
           alt="Hero Background"
           layout="fullWidth"
-          className="object-cover w-full h-[100vh]"
+          className="object-cover w-full h-[130vh] lg:h-[100vh]"
         />
       </div>
       

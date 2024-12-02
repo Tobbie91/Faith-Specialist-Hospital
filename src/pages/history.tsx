@@ -15,7 +15,7 @@ import MapComponent from "../components/map";
 
 const Hospital = () => {
   return (
-    <div className="bg-[white]">
+    <div className="bg-[white] overflow-hidden">
       <Header backGround="bg-white" />
       <AboutHero/>
       <WhoSection/>

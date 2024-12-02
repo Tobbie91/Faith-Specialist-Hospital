@@ -9,7 +9,7 @@ import MapComponent from "../components/map";
 
 const Contact = () => {
   return (
-    <div className="bg-[white]">
+    <div className="bg-[white] overflow-hidden">
       <Header backGround="bg-white" />
       <Hero/>
       <ContactUs/>

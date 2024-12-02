@@ -9,7 +9,9 @@ const StatsSection = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-10 bg-[#F4F5F7]">
+    <>
+    {/* desktop */}
+    <div className="flex justify-center items-center py-10 bg-[#F4F5F7] hidden lg:block">
       {stats.map((stat, index) => (
         <React.Fragment key={index}>
           <div className="flex flex-col items-center text-center px-9">
@@ -26,6 +28,27 @@ const StatsSection = () => {
         </React.Fragment>
       ))}
     </div>
+
+    {/* mobile */}
+    <div className="flex flex-col justify-center items-center py-7 bg-[#F4F5F7] lg:hidden">
+  {stats.map((stat, index) => (
+    <React.Fragment key={index}>
+      <div className="flex flex-col items-center text-center px-9">
+        <h3 className="text-[28px] font-bold text-[#111217]">{stat.value}</h3>
+        <p
+          className="text-gray-600 mt-2 text-[16px] font-normal"
+          dangerouslySetInnerHTML={{ __html: stat.description }}
+        />
+      </div>
+      {/* Add a horizontal divider except for the last item */}
+      {index < stats.length - 1 && (
+        <div className="w-full border-t border-gray-300 my-6"></div>
+      )}
+    </React.Fragment>
+  ))}
+</div>
+
+    </>
   );
 };
 

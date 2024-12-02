@@ -18,7 +18,9 @@ const TestimonialCarousel = () => {
   const { title, description, img } = testimonials[currentIndex];
 
   return (
-    // <div className='flex items-center justify-center'>
+    <>
+    {/* Desktop */}
+    <div className="hidden lg:block">
     <div className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center ">
       <h2 className="text-3xl font-semibold text-white mb-8">
         Patients Tell Their Stories
@@ -78,9 +80,63 @@ const TestimonialCarousel = () => {
 
       {/* See All Stories button */}
       <button className="mt-8 px-[4em] py-2 bg-transparent border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition">
+        {/* See All Stories */}
+      </button>
+    </div>
+    </div>
+    {/* Mobile */}
+
+    <div className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center lg:hidden w-full">
+      <h2 className="text-[33px] mt-[1em] font-semibold text-white mb-8 text-center">
+       <span className="whitespace-nowrap">Patients Tell Their</span>  <br/>Stories
+      </h2>
+
+      <div className="relative flex flex-col rounded-lg shadow-lg">
+       
+
+<img src={img.url} alt={img.alt} className=" h-auto rounded-[10px] w-[100%]" /> 
+        {/* Testimonial content */}
+        <div className="flex bg-[#F4F5F7] px-2">
+          <div className="">
+            <h3 className="text-[23px] font-semibold text-gray-800  mt-[1em] whitespace-nowrap">
+              {title}
+            </h3>
+            <p className="text-gray-600 mb-[0.5em] text-[16px]  mt-[1em] font- normal">
+              {description}
+            </p>
+            <a
+              href="#"
+              className="text-teal-600 lg:text-[18px] font-semibold mt-4 inline-block  mb-[2em]"
+            >
+              Read More
+            </a>
+          </div>
+          
+        
+        </div>
+
+    
+      </div>
+
+      {/* Indicators */}
+      <div className="flex space-x-2 mt-4">
+        {testimonials.map((_, index) => (
+          <span
+            key={index}
+            className={`w-3 h-3 rounded-full cursor-pointer ${
+              currentIndex === index ? "bg-teal-600" : "bg-gray-300"
+            }`}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div>
+
+      {/* See All Stories button */}
+      <button className="mt-8 px-[4em] h-[56px] py-2 bg-transparent border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition">
         See All Stories
       </button>
     </div>
+    </>
   );
 };
 

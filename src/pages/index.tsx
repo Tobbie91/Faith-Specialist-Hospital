@@ -13,7 +13,7 @@ import Footer from "../components/Home/footer";
 
 const Home = () => {
   return (
-    <div className="bg-[#F4F5F7]">
+    <div className="bg-[#F4F5F7] overflow-hidden">
       <Header backGround="bg-white" />
       <HeroSection />
       <StatsSection />
