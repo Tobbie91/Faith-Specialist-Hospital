@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FaithIcon = () => {
     return (
-      <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <svg width="16" height="16" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
       <rect width="46" height="46" fill="url(#pattern0_509_1469)"/>
       <defs>
       <pattern id="pattern0_509_1469" patternContentUnits="objectBoundingBox" width="1" height="1">
