@@ -1,6 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useState } from "react";
-import * as XLSX from "xlsx";
+import { db } from "../../firebase";
+import { collection, addDoc } from "firebase/firestore";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -16,33 +17,31 @@ const ContactUs = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: { preventDefault: () => void; }) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-
-    // Create a worksheet from the form data
-    const worksheet = XLSX.utils.json_to_sheet([formData]);
-
-    // Create a new workbook
-    const workbook = XLSX.utils.book_new();
-
-    // Append the worksheet to the workbook
-    XLSX.utils.book_append_sheet(workbook, worksheet, "Contact Data");
-
-    // Generate an Excel file
-    XLSX.writeFile(workbook, "ContactData.xlsx");
-
-    // Clear the form
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-
-    alert("Your message has been saved to an Excel sheet!");
+    console.log("Form is being submitted...");
+    
+    try {
+      const contactsCollectionRef = collection(db, "contacts");
+      await addDoc(contactsCollectionRef, formData);
+      
+      // Reset form after successful submission
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+  
+      alert("Your message has been sent successfully!");
+    } catch (error) {
+      console.error("Error adding document: ", error);
+      alert("There was an error submitting the form. Please try again later.");
+    }
   };
-
+  
+  
   return (
     <>
       <div className="hidden lg:block">
