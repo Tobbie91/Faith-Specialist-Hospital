@@ -5,7 +5,8 @@ import Do3 from "../../images/Do3.webp";
 import Do4 from "../../images/Do4.webp";
 import Do5 from "../../images/Do5.webp";
 import Do6 from "../../images/Do6.webp";
-import ImageStories from "../../images/ImageStories.webp";
+import Test1 from "../../images/Test1.webp";
+import Test2 from "../../images/Test2.webp";
 
 interface NavLink {
   id: string;
@@ -163,28 +164,28 @@ export const navLinks: NavLink[] = [
 export const testimonials = [
   {
     id: 1,
-    title: "John's Journey to Mobility",
-    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    title: "11-Year-Old Grace Overcomes Blount’s Disease",
+    description: `Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!`,
     img: {
-      url: ImageStories,
+      url: Test1,
       alt: "do6",
     },
   },
   {
     id: 2,
-    title: "John's Journey to Mobility2",
-    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    description: `At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.`,
     img: {
-      url: ImageStories,
+      url: Test2,
       alt: "do6",
     },
   },
   {
     id: 3,
-    title: "John's Journey to Mobility3",
-    description: `After struggling with severe knee pain for years, I decided to undergo knee replacement surgery at Faith Specialist Hospital. The entire experience was life-changing. The staff was incredibly supportive, and the surgery went smoothly. Today, I can walk without pain and enjoy my daily activities again. Thank you, Faith Specialist Hospital, for giving me my life back!`,
+    title: "11-Year-Old Grace Overcomes Blount’s Disease",
+    description: `Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!.`,
     img: {
-      url: ImageStories,
+      url: Test1,
       alt: "do6",
     },
   },
