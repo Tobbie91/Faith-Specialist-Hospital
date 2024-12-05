@@ -1,5 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { stories } from "../constants";
+import Carousel from "./storyCarousel";
 
 const DanielsStruggle = () => {
     // const { story, otherStories } = pageContext;
@@ -103,22 +105,16 @@ const DanielsStruggle = () => {
             Daniel’s parents are overwhelmed with gratitude. “Faith Specialist
             Hospital didn’t just heal our son’s legs; they gave him a new life,”
             his father shared. Today, Daniel’s story stands as a testament to
-            the power of expert care, compassion, and resilience. Faith
-            Specialist Hospital continues to inspire hope, proving that with the
+            the power of expert care, compassion, and resilience. </p>
+            
+            <p className="mt-4">Faith Specialist Hospital continues to inspire hope, proving that with the
             right care, even the most challenging conditions can be overcome.
           </p>
         </div>
       </div>
-      {/* {otherStories.length > 0 && (
-        <Carousel
-          items={otherStories.map((otherStory) => ({
-            title: otherStory.title,
-            description: otherStory.description,
-            image: otherStory.image,
-            slug: otherStory.slug,
-          }))}
-        />
-      )} */}
+    <div className="mt-[118em]"> 
+    <p className="text-[33px] font-semibold px-[5em]">More Patient Stories</p>
+    <Carousel items={stories} /></div> 
     </>
   );
 };

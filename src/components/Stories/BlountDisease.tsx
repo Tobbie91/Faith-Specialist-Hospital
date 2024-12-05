@@ -1,75 +1,76 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { stories, stories2 } from "../constants";
+import Carousel from "./storyCarousel";
 
 const BlountDisease = () => {
   return (
     <>
-         <div className="absolute top-[400px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
+      <div className="absolute top-[400px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
         <h1 className="font-semibold text-[48px] mt-[2em] ">
-          From Struggles to Strength: Daniel’s <br />
-          Journey to Recovery
+          A New Beginning: 11-Year-Old Grace <br />
+          Overcomes Blount’s Disease
         </h1>
         <p className="text-[16px] font-normal px-[m] text-[#444A5B] mt-4">
-          At just five years old, Daniel’s life was marked by struggles no child
-          should face. Born with a windswept deformity caused by rickets, his
-          legs curved outward in opposite directions, making walking a painful
-          challenge. Simple joys like running or playing with friends were out
-          of reach. Instead of carefree laughter, Daniel faced stares and
-          whispers, leaving him shy and withdrawn.
+          Grace, an energetic and spirited 11-year-old, faced a challenging
+          journey due to Blount's disease, a condition that caused severe genu
+          varum (bowleggedness). Her condition not only impacted her physical
+          mobility but also her confidence and emotional well-being. After
+          visiting multiple hospitals without a successful resolution, Grace and
+          her family were finally referred to Faith Specialist Hospital.
         </p>
         <div className="px-[em] text-left">
           <h3 className="font-semibold text-[23px] mt-7 text-left">
-            Initial Struggles
+            The Challenge
           </h3>
           <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
-            Daniel’s parents tried everything within their reach. They visited
-            multiple hospitals, hoping for a solution to their son’s condition.
-            But each visit ended in disappointment, with no clear path to
-            recovery. Their search felt endless until a trusted friend
-            recommended Faith Specialist Hospital, renowned for its expertise in
-            managing complex orthopedic conditions.
+            From an early age, Grace’s family noticed the progressive bowing of
+            her legs, which worsened as she grew older. Her condition limited
+            her ability to participate in activities with her peers, causing her
+            to feel isolated and self-conscious. Despite numerous consultations
+            and treatments at other hospitals, the severity of her condition
+            remained unchanged. The family was losing hope—until they arrived at
+            Faith Specialist Hospital.
           </p>
         </div>
         <div className="px-[em] text-left">
           <h3 className="font-semibold text-[23px] mt-7 text-left">
-            Diagnosis and Treatment Plan
+            Pre-Surgery Preparation
           </h3>
           <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
-            At Faith Specialist Hospital, Daniel’s family found not just hope
-            but a clear plan. During their first consultation, the orthopedic
-            team, led by the Medical Director, carefully assessed Daniel’s
-            condition. The team explained the challenges and outlined a
-            multi-phase plan to correct the deformity. The plan included precise
-            corrective surgery followed by a structured rehabilitation program,
-            designed to restore both function and strength.
+            Upon arrival, Grace’s case was thoroughly evaluated by our team of
+            orthopedic specialists. Clinical examinations and medical imaging
+            confirmed severe bilateral genu varum resulting from advanced
+            Blount’s disease. Given her age and the progression of her
+            condition, surgical intervention was deemed necessary to correct the
+            deformity and restore proper alignment.
           </p>
         </div>
         <div className="px-[em] text-left">
           <h3 className="font-semibold text-[23px] mt-7 text-left">
-            Transformation and Outcome
+            The Procedure
           </h3>
           <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
-            The day of surgery marked a turning point for Daniel. The hospital’s
-            skilled surgeons employed advanced techniques to realign his legs.
-            The procedure was a success, but the journey was far from over.
-            Post-surgery, Daniel embarked on a personalized recovery plan. This
-            included physiotherapy sessions to improve mobility, nutritional
-            guidance to strengthen his bones, and regular follow-ups to monitor
-            progress.
+            Grace underwent a carefully planned corrective surgery at Faith
+            Specialist Hospital. Our experienced team employed cutting-edge
+            techniques, including osteotomy (bone realignment) and internal
+            fixation, to gradually straighten her legs. The procedure was
+            executed with precision to ensure minimal discomfort and an optimal
+            recovery outcome.{" "}
+          </p>
+
+          <p className="mt-4">
+            {" "}
+            Our team also provided post-operative support, including
+            physiotherapy sessions and detailed guidance for at-home care. This
+            holistic approach was designed to aid Grace’s recovery, improve her
+            mobility, and ensure the surgical corrections were maintained.
           </p>
         </div>
         <div className="px-[em] text-left">
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             The Transformation
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
-            Three months later, the results were astonishing. Daniel’s legs were
-            straight, his gait was steady, and his once-shy demeanor was
-            replaced by a beaming smile. For the first time, Daniel could run,
-            jump, and play like other children his age. His transformation was
-            not just physical—it was emotional. The newfound confidence in his
-            steps mirrored the joy in his heart.
-          </p>
         </div>
         <div className="flex px-[em] gap-6 mt-[2em]">
           <div>
@@ -81,6 +82,12 @@ const BlountDisease = () => {
               alt="LinkedIn"
               className="w-[]"
             />
+            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+              Before Surgery: Grace’s legs showed significant outward bowing in
+              both the front and back views, a hallmark of Blount’s disease.
+              These deformities greatly hindered her walking ability and
+              posture.
+            </p>
           </div>
           <div>
             <p className="text-[16px] font-normal px-[em] text-[#444A5B]">
@@ -91,21 +98,29 @@ const BlountDisease = () => {
               alt="LinkedIn"
               className="w-[]"
             />
+            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-6">
+              Three Months After Surgery: The transformation was remarkable. The
+              front-view image revealed straightened legs with proper alignment,
+              allowing Grace to stand tall and walk with confidence.
+            </p>
           </div>
         </div>
         <div className="px-[em] text-left">
           <h3 className="font-semibold text-[23px] mt-7 text-left">
-            Gratitude and Inspiration
+            A New Chapter
           </h3>
           <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
-            Daniel’s parents are overwhelmed with gratitude. “Faith Specialist
-            Hospital didn’t just heal our son’s legs; they gave him a new life,”
-            his father shared. Today, Daniel’s story stands as a testament to
-            the power of expert care, compassion, and resilience. Faith
-            Specialist Hospital continues to inspire hope, proving that with the
-            right care, even the most challenging conditions can be overcome.
+            Grace’s story is a testament to the expertise and dedication of the
+            Faith Specialist Hospital team. Today, she moves with ease,
+            participates in her favorite activities, and embraces life with a
+            renewed sense of confidence. Her family, once overwhelmed with
+            worry, now celebrates her vibrant spirit and bright future.
           </p>
         </div>
+      </div>
+      <div className="mt-[118em]">
+      <p className="text-[33px] font-semibold px-[5em]">More Patient Stories</p>
+        <Carousel items={stories2} />
       </div>
     </>
   );

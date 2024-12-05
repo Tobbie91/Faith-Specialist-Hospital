@@ -7,6 +7,9 @@ import Do5 from "../../images/Do5.webp";
 import Do6 from "../../images/Do6.webp";
 import Test1 from "../../images/Test1.webp";
 import Test2 from "../../images/Test2.webp";
+import stories3 from "../../images/stories3.webp";
+import stories4 from "../../images/stories4.webp";
+
 
 interface NavLink {
   id: string;
@@ -188,5 +191,55 @@ export const testimonials = [
       url: Test1,
       alt: "do6",
     },
+  },
+];
+
+export const stories = [
+  {
+    title: "11-Year-Old Grace Overcomes Blount’s Disease",
+    description:
+      "Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!",
+    img: stories3, 
+    link: "/patientstory",
+  },
+];
+
+export const stories2 = [
+  {
+    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    description:
+      "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
+    img: stories4, 
+    link: "/stories",
+  },
+];
+
+export const blog1 = [
+  {
+    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    description:
+      "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
+    img: stories4, 
+    link: "/stories",
+  },
+];
+
+
+export const blogs = [
+  {
+    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    description:
+      "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
+    img: stories4, 
+    link: "/stories",
+    group: "Orthopedic Care",
+  },
+  {
+    title: "11-Year-Old Grace Overcomes Blount’s Disease",
+    description:
+      "Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!",
+    img: stories3, 
+    link: "/patientstory",
+    group: "Surgical Procedures", 
   },
 ];
