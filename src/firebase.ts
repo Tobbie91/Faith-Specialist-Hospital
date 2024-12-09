@@ -16,10 +16,15 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 // Initialize Firestore
 const db = getFirestore(app);
 
-// Export Firestore to use in your components
-export { db };
+// Conditionally initialize Firebase Analytics only on the client-side
+let analytics = null;
+if (typeof window !== "undefined") {
+  analytics = getAnalytics(app);
+}
+
+// Export Firestore and Analytics (if initialized) to use in your components
+export { db, analytics };
