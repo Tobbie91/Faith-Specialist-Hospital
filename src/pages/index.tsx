@@ -26,6 +26,7 @@ const Home = () => {
         </BackgroundSection>
       </div>
       <Informed />
+
       <BookAppointment />
       <Footer />
     </div>

@@ -9,9 +9,11 @@ const PromiseSection = () => {
       <div className="mt-[9em] px-[4em] hidden lg:block md:block ">
         <div className="bg-white shadow-lg rounded-lg border border-[#f4f5f7] px-[1em] py-[2em]">
           <div className="px-[4.1%] py-6 lg:px-[4.2%] lg:pt-[40px] lg:pb-0 max-w-screen-xxl xxl:mx-auto">
-            <div className="flex gap-[40px]">
-              <div className=" lg:w-full mt-[-6em]">
-                <StaticImage src="../../images/Image.webp" alt="Doctor" />
+            <div className="flex xxl:gap-[70px] ">
+              <div className="  mt-[-6em] xxl:mt-[-8em] xxl:ml-[-2em]">
+                <StaticImage src="../../images/Image.png" alt="Doctor"
+              className="xl:w-[290%] xxl:w-[300%] lg:w-[800%]"
+              />
               </div>
               <PromiseText />
             </div>

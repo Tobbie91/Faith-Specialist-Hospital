@@ -7,8 +7,7 @@ const DanielsStruggle = () => {
     // const { story, otherStories } = pageContext;
   return (
     <>
-         {/* <div className="absolute bg-white px-[12em] items-center flex flex-col justify-center shadow-lg -mt-[6em] z-50"> */}
-         <div className="absolute top-[400px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
+         <div className="absolute top-[550px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
         <h1 className="font-semibold text-[48px] mt-[2em] ">
           From Struggles to Strength: Daniel’s <br />
           Journey to Recovery

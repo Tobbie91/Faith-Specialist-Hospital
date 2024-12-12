@@ -6,7 +6,7 @@ import Carousel from "./storyCarousel";
 const BlountDisease = () => {
   return (
     <>
-      <div className="absolute top-[400px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
+      <div className="absolute top-[550px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10">
         <h1 className="font-semibold text-[48px] mt-[2em] ">
           A New Beginning: 11-Year-Old Grace <br />
           Overcomes Blount’s Disease
@@ -78,7 +78,7 @@ const BlountDisease = () => {
               Before Surgery
             </p>
             <StaticImage
-              src="../../images/stories4.webp"
+              src="../../images/grace1.png"
               alt="LinkedIn"
               className="w-[]"
             />
@@ -94,7 +94,7 @@ const BlountDisease = () => {
               Three Months After Surgery
             </p>
             <StaticImage
-              src="../../images/stories5.webp"
+              src="../../images/grace2.png"
               alt="LinkedIn"
               className="w-[]"
             />

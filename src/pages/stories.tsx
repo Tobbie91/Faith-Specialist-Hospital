@@ -2,15 +2,15 @@ import * as React from "react";
 import Header from "../components/common/Header";
 import BookAppointment from "../components/Home/bookAppointment";
 import Footer from "../components/Home/footer";
-import StoriesHero from "../components/Stories/storiesHer";
 import DanielsStruggle from "../components/Stories/DanielsStruggle";
+import StoriesHero2 from "../components/Stories/storiesHer2";
 
 
 const Stories = () => {
   return (
     <div className="bg-[white] overflow-hidden">
       <Header backGround="bg-white" />
-      <StoriesHero/>
+      <StoriesHero2/>
       < DanielsStruggle/>
      
       <BookAppointment />

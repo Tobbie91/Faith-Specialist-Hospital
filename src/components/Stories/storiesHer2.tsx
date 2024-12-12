@@ -1,11 +1,11 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
-const StoriesHero = () => {
+const StoriesHero2 = () => {
   return (
     <div className='relative'>
           <StaticImage
-          src="../../images/stories3.png"
+          src="../../images/story.png"
           alt="LinkedIn"
           className="w-full h-[500px] mt-[8em]"
         />
@@ -13,4 +13,4 @@ const StoriesHero = () => {
   )
 }
 
-export default StoriesHero
+export default StoriesHero2

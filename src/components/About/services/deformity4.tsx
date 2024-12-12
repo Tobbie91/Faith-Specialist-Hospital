@@ -77,7 +77,7 @@ const ServiceLinks4 = () => {
   return (
     <div className="mt-[4em] mb-[2em]">
       <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
-        <div className="flex flex-col pl-8">
+      <div className="flex flex-col pl-8 sticky top-[4em]"> 
           {renderLink({
             linkId: "services",
             route: "/services",

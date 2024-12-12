@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const totalImages = 5; // Number of images
+  const totalImages = 5; 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -12,6 +12,10 @@ const HeroSection = () => {
 
     return () => clearInterval(interval);
   }, [totalImages]);
+
+  const handleIndicatorClick = (index: React.SetStateAction<number>) => {
+    setCurrentIndex(index);
+  };
 
   return (
     <>
@@ -24,48 +28,87 @@ const HeroSection = () => {
             height: "100%",
           }}
         >
-          <div className="min-w-full h-full  ">
+          <div className="min-w-full h-full relative ">
             <StaticImage
-              src="../../images/HeroImages2.webp"
+              src="../../images/HeroImages2.png"
               alt="Hero Image 1"
               layout="fullWidth"
               className="object-cover h-full w-full"
             />
+            <div className="absolute inset-0 flex items-center justify-center ">
+              <h1 className="text-white text-[60px] font-semibold text-center">
+                COMPREHENSIVE GENERAL <br /> MEDICINE
+              </h1>
+            </div>
           </div>
-          <div className="min-w-full h-full  ">
+          <div className="min-w-full h-full  relative">
             <StaticImage
-              src="../../images/HeroImages1.webp"
+              src="../../images/HeroImages1.png"
               alt="Hero Image 2"
               layout="fullWidth"
               className="object-cover h-full w-full"
             />
+            <div className="absolute inset-0 flex items-center justify-center ">
+              <h1 className="text-white text-[60px] font-semibold text-center">
+                ADVANCED SURGICAL SOLUTIONS
+              </h1>
+            </div>
           </div>
-          <div className="min-w-full h-full  ">
+          <div className="min-w-full h-full  relative">
             <StaticImage
-              src="../../images/HeroImages3.webp"
+              src="../../images/HeroImages3.png"
               alt="Hero Image 3"
               layout="fullWidth"
               className="object-cover h-full w-full"
             />
+            <div className="absolute inset-0 flex items-center justify-center ">
+              <h1 className="text-white text-[60px] font-semibold text-center">
+                EXCEPTIONAL PEDIATRIC <br />
+                ORTHOPEDICS
+              </h1>
+            </div>
           </div>
-          <div className="min-w-full h-full">
+          <div className="min-w-full h-full relative">
             <StaticImage
-              src="../../images/HeroImages4.webp"
+              src="../../images/HeroImages4.png"
               alt="Hero Image 4"
               layout="fullWidth"
               className="object-cover h-full w-full"
             />
+            <div className="absolute inset-0 flex items-center justify-center ">
+              <h1 className="text-white text-[60px] font-semibold text-center">
+                ADVANCED SPINE <br />
+                SURGICAL SERVICES
+              </h1>
+            </div>
           </div>
-          <div className="min-w-full h-full">
+          <div className="min-w-full h-full relative">
             <StaticImage
-              src="../../images/HeroImages5.webp"
+              src="../../images/HeroImages5.png"
               alt="Hero Image 5"
               layout="fullWidth"
               className="object-cover h-full w-full"
             />
+            <div className="absolute inset-0 flex items-center justify-center ">
+              <h1 className="text-white text-[60px] font-semibold text-center">
+                TOTAL JOINT REPLACEMENT <br />
+                PROCEDURES
+              </h1>
+            </div>
           </div>
         </div>
-      </div>
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+    {Array.from({ length: 5 }).map((_, index) => (
+      <button
+        key={index}
+        onClick={() => setCurrentIndex(index)} 
+        className={`w-6 h-6 rounded-full ${
+          currentIndex === index ? "bg-white" : "bg-gray-500"
+        } transition-colors duration-300`}
+      ></button>
+    ))}
+  </div>
+  </div>
 
       {/* Mobile */}
       <div className="lg:hidden relative w-full h-[700px] overflow-hidden">

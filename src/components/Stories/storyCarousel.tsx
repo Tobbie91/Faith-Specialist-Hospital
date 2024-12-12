@@ -17,11 +17,6 @@ const Carousel = ({ items }) => {
               src={item.image}
               className="w-full h-[200px] object-cover rounded-md"
             />
-             {/* <StaticImage
-              src="../../images/stories3.webp" // Replace with your image path
-              alt={item.title}
-              className="w-full h-[200px] object-cover rounded-md"
-            /> */}
             {/* Title */}
             <h3 className="mt-4 text-lg font-bold text-gray-800">{item.title}</h3>
             {/* Description */}

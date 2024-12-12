@@ -4,7 +4,12 @@ import { Choose1Icon } from "../../assets/icons/Choose1";
 import { Choose2Icon } from "../../assets/icons/Choose2";
 import { Choose3Icon } from "../../assets/icons/Choose3";
 import { Choose4Icon } from "../../assets/icons/Choose4";
+import { motion } from "framer-motion";
 
+const fadeInVariant = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
 const WhyChoose = () => {
   return (
     <>
@@ -13,7 +18,11 @@ const WhyChoose = () => {
       <div className="px-[4.1%] pt-10 pb-[13px] lg:pt-0 lg:pb-[45px] fellix max-w-screen-xxl xxl:mx-auto ">
         {/* Desktop */}
         <div className="hidden md:grid  lg:grid grid-cols-2 lg:gap-[21px] md:gap-[38px] xl:gap-[60px] lg:items-start ">
-          <div className="flex flex-col justify-start mt-[2em] ml-[4em] pl-[1em]">
+          {/* <div className="flex flex-col justify-start mt-[2em] ml-[4em] pl-[1em]"> */}
+          <div
+        className="flex flex-col justify-start mt-[2em] ml-[4em] pl-[1em]"
+        style={{ position: "sticky", top: "0" }} // Sticky positioning
+      >
             <h1 className="lg:text-[39px] font-semibold ">
               Why Choose Faith <br/> Specialist?
             </h1>
@@ -22,7 +31,10 @@ const WhyChoose = () => {
               advanced <br/> Orthopedic treatments at Faith Specialist <br/> Hospital
             </p>
           </div>
-          <div className="mt-[2em] ml-[-3em]">
+          {/* <div className="mt-[2em] ml-[-3em]"> */}
+          <div
+        className="overflow-y-auto h-[calc(100vh-8em)] ml-[-3em] mt-[2em]" // Adjust height as needed
+      >
             <div className="mt-5 space-y-5">
               <div className="flex gap-[6px]">
                 <div className="-mt-[-4px]">

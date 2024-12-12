@@ -13,112 +13,116 @@ type LinkProps<IconComponentProps = {}> = {
   route: string;
   IconComponent: React.ComponentType<IconComponentProps>;
   text: string;
-  isActive: boolean;  
+  isActive: boolean;
 };
 
 const ServiceLinks = () => {
-    const [activeLink, setActiveLink] = useState<string | null>("services");
-  
-    useEffect(() => {
-      setActiveLink("services");
+  const [activeLink, setActiveLink] = useState<string | null>("services");
+
+  useEffect(() => {
+    setActiveLink("services");
   }, []);
 
   // Function to handle active link click
   const handleLinkClick = (link: React.SetStateAction<string | null>) => {
-      setActiveLink(link);
+    setActiveLink(link);
   };
 
-
-const renderLink = <IconComponentProps extends {}>({
-  linkId,
-  route,
-  IconComponent,
-  text,
-  isActive,
-}: LinkProps<IconComponentProps>) => {
-  return (
-    <Link
-      to={route}
-      className={`flex gap-6 border border-[#C3C6D2] rounded-md w-[400px] py-2 mb-6 ${
-        activeLink === linkId ? 'text-transparent' : 'text-black'
-      }`}
-      onClick={() => handleLinkClick(linkId)}
-      style={
-        activeLink === linkId
-          ? {
-              border: '2px solid transparent',
-              borderImage: 'linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1',
-              backgroundClip: 'text',
-              backgroundImage: 'linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)',
-            }
-          : {}
-      }
-    >
-      <span className="pl-3">
-  {/* @ts-ignore */}
-        <IconComponent isActive={isActive} /> {/* Pass isActive here */}
-      </span>
-      <p
-        className={`lg:text-[15px] ${activeLink === linkId ? 'bg-clip-text text-transparent' : ''}`}
+  const renderLink = <IconComponentProps extends {}>({
+    linkId,
+    route,
+    IconComponent,
+    text,
+    isActive,
+  }: LinkProps<IconComponentProps>) => {
+    return (
+      <Link
+        to={route}
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md w-[400px] py-2 mb-6 ${
+          activeLink === linkId ? "text-transparent" : "text-black"
+        }`}
+        onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                backgroundImage: 'linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)',
-                backgroundClip: 'text',
+                border: "2px solid transparent",
+                borderImage:
+                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
+                backgroundClip: "text",
+                backgroundImage:
+                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
               }
             : {}
         }
       >
-        {text}
-      </p>
-    </Link>
-  );
-};
+        <span className="pl-3">
+          {/* @ts-ignore */}
+          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+        </span>
+        <p
+          className={`lg:text-[15px] ${
+            activeLink === linkId ? "bg-clip-text text-transparent" : ""
+          }`}
+          style={
+            activeLink === linkId
+              ? {
+                  backgroundImage:
+                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  backgroundClip: "text",
+                }
+              : {}
+          }
+        >
+          {text}
+        </p>
+      </Link>
+    );
+  };
   return (
     <div className="mt-[4em] mb-[2em]">
-     <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 ">
-     <div className="flex flex-col pl-8">
+      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 ">
+      <div className="flex flex-col pl-8 sticky top-[4em] h-screen">
           {renderLink({
-            linkId: 'services',
-            route: '/services',
+            linkId: "services",
+            route: "/services",
             IconComponent: Deformity1,
-            text: 'Deformity Correction and Pediatric \nOrthopedic Services',
-            isActive: activeLink === 'services', // Pass the correct value here
+            text: "Deformity Correction and Pediatric \nOrthopedic Services",
+            isActive: activeLink === "services", 
           })}
           {renderLink({
-            linkId: 'services1',
-            route: '/services1',
+            linkId: "services1",
+            route: "/services1",
             IconComponent: Deformity2,
-            text: 'Management of Fracture and Complication of \nFractures',
-            isActive: activeLink === 'services1',
+            text: "Management of Fracture and Complication of \nFractures",
+            isActive: activeLink === "services1",
           })}
           {renderLink({
-            linkId: 'services2',
-            route: '/services2',
+            linkId: "services2",
+            route: "/services2",
             IconComponent: Deformity3,
-            text: 'Orthopedic and Plastic Surgical Services',
-            isActive: activeLink === 'services2',
+            text: "Orthopedic and Plastic Surgical Services",
+            isActive: activeLink === "services2",
           })}
           {renderLink({
-            linkId: 'services3',
-            route: '/services3',
+            linkId: "services3",
+            route: "/services3",
             IconComponent: Deformity4,
-            text: 'Full Laboratory and General Medical \nServices',
-            isActive: activeLink === 'services3',
+            text: "Full Laboratory and General Medical \nServices",
+            isActive: activeLink === "services3",
           })}
           {renderLink({
-            linkId: 'services4',
-            route: '/services4',
+            linkId: "services4",
+            route: "/services4",
             IconComponent: Deformity5,
-            text: 'Management of Accident Victims and \nAmbulance Services',
-            isActive: activeLink === 'services4',
+            text: "Management of Accident Victims and \nAmbulance Services",
+            isActive: activeLink === "services4",
           })}
           {renderLink({
-            linkId: 'services5',
-            route: '/services5',
+            linkId: "services5",
+            route: "/services5",
             IconComponent: Deformity6,
-            text: 'Medical Imaging, Physiotherapy and Medical \nRehabilitation',
-            isActive: activeLink === 'services5',
+            text: "Medical Imaging, Physiotherapy and Medical \nRehabilitation",
+            isActive: activeLink === "services5",
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
