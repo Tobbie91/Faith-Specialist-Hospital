@@ -1,0 +1,28 @@
+import { StaticImage } from 'gatsby-plugin-image'
+import React from 'react'
+
+const AppointmentHero2 = () => {
+  return (
+    <>
+    {/* desktop */}
+    <div className='relative hidden lg:block md:block'>
+          <StaticImage
+          src="../../images/appointmentcard.png"
+          alt="LinkedIn"
+          className="w-full lg:h-[500px] h-[700px] mt-[3em] lg:mt-[2em]"
+        />
+    </div>
+
+    {/* mobile */}
+    <div className='relative lg:hidden md:hidden'>
+          <StaticImage
+          src="../../images/mobileappoinmentcard.png"
+          alt="LinkedIn"
+          className="w-full lg:h-[500px] h-[700px] mt-[3em] lg:mt-[2em]"
+        />
+    </div>
+    </>
+  )
+}
+
+export default AppointmentHero2

@@ -38,4 +38,10 @@
   font-weight: 500;
   font-style: normal;
 }
-
+.gradient-border {
+  border-width: 2px;
+  border-radius: 20px; 
+  border-style: solid;
+  border-image: linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%);
+  border-image-slice: 1;
+}

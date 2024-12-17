@@ -6,7 +6,7 @@ import Carousel from "./storyCarousel";
 const BlountDisease = () => {
   return (
     <>
-    {/* desktop */}
+      {/* desktop */}
       <div className="absolute top-[550px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10 hidden md:block">
         <h1 className="font-semibold text-[48px] mt-[2em] ">
           A New Beginning: 11-Year-Old Grace <br />
@@ -120,14 +120,16 @@ const BlountDisease = () => {
         </div>
       </div>
       <div className="mt-[118em] hidden md:block">
-      <p className="text-[33px] font-semibold px-[5em]">More Patient Stories</p>
+        <p className="text-[33px] font-semibold px-[5em]">
+          More Patient Stories
+        </p>
         <Carousel items={stories2} />
       </div>
 
       {/* mobile */}
 
       <div className="absolute top-[500px] left-1/2 transform -translate-x-1/2  max-w-3xl w-full rounded-lg z-10 px-[1em] py-10 lg:hidden md:hidden">
-      <h1 className="font-semibold text-[34px] mt-[2em] text-center bg-white pt-[2em]">
+        <h1 className="font-semibold text-[34px] mt-[2em] text-center bg-white pt-[2em]">
           A New Beginning: 11-Year-Old Grace <br />
           Overcomes Blount’s Disease
         </h1>
@@ -239,7 +241,9 @@ const BlountDisease = () => {
         </div>
       </div>
       <div className="mt-[178em] lg:hidden md:hidden">
-      <p className="text-[33px] font-semibold px-[1em]">More Patient Stories</p>
+        <p className="text-[33px] font-semibold px-[1em]">
+          More Patient Stories
+        </p>
         <Carousel items={stories2} />
       </div>
     </>

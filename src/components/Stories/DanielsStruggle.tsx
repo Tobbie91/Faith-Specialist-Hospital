@@ -4,11 +4,11 @@ import { stories } from "../constants";
 import Carousel from "./storyCarousel";
 
 const DanielsStruggle = () => {
-    // const { story, otherStories } = pageContext;
+  // const { story, otherStories } = pageContext;
   return (
     <>
-    {/* desktop */}
-         <div className="absolute top-[550px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10 hidden lg:block md:block">
+      {/* desktop */}
+      <div className="absolute top-[550px] left-1/2 transform -translate-x-1/2 bg-white max-w-5xl w-full rounded-lg z-10 px-[5em] py-10 hidden lg:block md:block">
         <h1 className="font-semibold text-[48px] mt-[2em] ">
           From Struggles to Strength: Daniel’s <br />
           Journey to Recovery
@@ -105,20 +105,26 @@ const DanielsStruggle = () => {
             Daniel’s parents are overwhelmed with gratitude. “Faith Specialist
             Hospital didn’t just heal our son’s legs; they gave him a new life,”
             his father shared. Today, Daniel’s story stands as a testament to
-            the power of expert care, compassion, and resilience. </p>
-            
-            <p className="mt-4">Faith Specialist Hospital continues to inspire hope, proving that with the
-            right care, even the most challenging conditions can be overcome.
+            the power of expert care, compassion, and resilience.{" "}
+          </p>
+
+          <p className="mt-4">
+            Faith Specialist Hospital continues to inspire hope, proving that
+            with the right care, even the most challenging conditions can be
+            overcome.
           </p>
         </div>
       </div>
-    <div className="mt-[118em hidden lg:block md:block]"> 
-    <p className="text-[33px] font-semibold px-[5em]">More Patient Stories</p>
-    <Carousel items={stories} /></div> 
+      <div className="mt-[118em hidden lg:block md:block]">
+        <p className="text-[33px] font-semibold px-[5em]">
+          More Patient Stories
+        </p>
+        <Carousel items={stories} />
+      </div>
 
-    {/* mobile */}
+      {/* mobile */}
 
-    <div className="absolute top-[500px] left-1/2 transform -translate-x-1/2   max-w-3xl w-full rounded-lg z-10 px-[1em] py-10 lg:hidden md:hidden" >
+      <div className="absolute top-[500px] left-1/2 transform -translate-x-1/2   max-w-3xl w-full rounded-lg z-10 px-[1em] py-10 lg:hidden md:hidden">
         <h1 className="font-semibold text-[34px] mt-[2em] text-center bg-white pt-[2em]">
           From Struggles to Strength: Daniel’s <br />
           Journey to Recovery
@@ -215,16 +221,22 @@ const DanielsStruggle = () => {
             Daniel’s parents are overwhelmed with gratitude. “Faith Specialist
             Hospital didn’t just heal our son’s legs; they gave him a new life,”
             his father shared. Today, Daniel’s story stands as a testament to
-            the power of expert care, compassion, and resilience. </p>
-            
-            <p className="mt-4">Faith Specialist Hospital continues to inspire hope, proving that with the
-            right care, even the most challenging conditions can be overcome.
+            the power of expert care, compassion, and resilience.{" "}
+          </p>
+
+          <p className="mt-4">
+            Faith Specialist Hospital continues to inspire hope, proving that
+            with the right care, even the most challenging conditions can be
+            overcome.
           </p>
         </div>
       </div>
-    <div className="mt-[178em]"> 
-    <p className="text-[33px] font-semibold px-[1em]">More Patient Stories</p>
-    <Carousel items={stories} /></div> 
+      <div className="mt-[178em]">
+        <p className="text-[33px] font-semibold px-[1em]">
+          More Patient Stories
+        </p>
+        <Carousel items={stories} />
+      </div>
     </>
   );
 };
