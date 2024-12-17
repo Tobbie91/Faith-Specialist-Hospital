@@ -216,30 +216,40 @@ export const stories2 = [
 
 export const blog1 = [
   {
-    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    title: "Understanding the Causes and Treatment of Osteoarthritis",
     description:
-      "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
+      "Osteoarthritis is a degenerative joint disorder where cartilage, the smooth tissue that cushions the ends of bones, wears away over time. ",
     img: stories4, 
-    link: "/stories",
+    link: "/treatment-of-osteoarthritis-blog",
+  },
+];
+export const blog2 = [
+  {
+    title: "What to Expect During a Joint Replacement Surgery",
+    description:
+      "Joint replacement surgery can be life-changing for individuals with severe arthritis or injury-related joint damage. This guide walks you through every stage of the process, from preparation to recovery, helping you understand what to expect.",
+    img: stories4, 
+    link: "/joint-replacement-surgery",
   },
 ];
 
 
+
 export const blogs = [
   {
-    title: "From Struggles to Strength: Daniel’s Journey to Recovery",
+    title: "Understanding the Causes and Treatment of Osteoarthritis",
     description:
-      "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
+      "Osteoarthritis is a degenerative joint disorder where cartilage, the smooth tissue that cushions the ends of bones, wears away over time. ",
     img: stories4, 
-    link: "/stories",
+    link: "/treatment-of-osteoarthritis-blog",
     group: "Orthopedic Care",
   },
   {
-    title: "11-Year-Old Grace Overcomes Blount’s Disease",
+    title: "What to Expect During a Joint Replacement Surgery",
     description:
-      "Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!",
+      "Joint replacement surgery can be life-changing for individuals with severe arthritis or injury-related joint damage. This guide walks you through every stage of the process, from preparation to recovery, helping you understand what to expect.",
     img: stories3, 
-    link: "/patientstory",
+    link: "/joint-replacement-surgery",
     group: "Surgical Procedures", 
   },
 ];

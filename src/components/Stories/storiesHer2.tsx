@@ -7,7 +7,7 @@ const StoriesHero2 = () => {
           <StaticImage
           src="../../images/story.png"
           alt="LinkedIn"
-          className="w-full h-[500px] mt-[8em]"
+          className="w-full lg:h-[500px] h-[700px] mt-[3em] lg:mt-[8em]"
         />
     </div>
   )
