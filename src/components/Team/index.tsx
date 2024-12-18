@@ -8,7 +8,7 @@ const TeamComponent = () => {
     <div className="hidden lg:block">
       <div className="w-full ">
         <StaticImage
-          src="../../images/team1.png"
+          src="../../images/team1.webp"
           alt="Hero Image 1"
         //   layout="fullWidth"
           className=""
@@ -55,7 +55,7 @@ const TeamComponent = () => {
       </div>
       <div className="flex flex-col px-[8em] mt-[3em]">
         <StaticImage
-          src="../../images/team2.png"
+          src="../../images/team2.webp"
           alt="Hero Image 1"
           className=""
         />
