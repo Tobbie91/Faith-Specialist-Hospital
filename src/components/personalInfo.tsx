@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { navigate } from "gatsby";
 import { db } from "../firebase";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-// import { db } from './firebase';
+import { useLocation } from "@reach/router";  // Importing useLocation
 
 const PersonalInfoForm = () => {
+  const location = useLocation();  // Using the useLocation hook
   const locationState = location.state as
     | { selectedService: any; otherDetails: any }
     | undefined;
