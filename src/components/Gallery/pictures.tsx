@@ -8,7 +8,7 @@ const Pictures = () => {
     <div className="hidden lg:block">
       <div className="flex gap-6 px-[6em] pt-[3em]">
         <StaticImage
-          src="../../images/gallery1.png"
+          src="../../images/gallery1.webp"
           alt="LinkedIn"
           className="w-[714px] h-[450px]  "
         />
@@ -61,14 +61,14 @@ const Pictures = () => {
           className="w-[491px] h-[450px]  "
         />
         <StaticImage
-          src="../../images/gallery11.png"
+          src="../../images/gallery11.webp"
           alt="LinkedIn"
           className="w-[714px] h-[450px]"
         />
       </div>
       <div className="flex gap-6 px-[6em] py-[3em] ">
         <StaticImage
-          src="../../images/gallery12.png"
+          src="../../images/gallery12.webp"
           alt="LinkedIn"
           className="w-[613px] h-[356px]  "
         />
