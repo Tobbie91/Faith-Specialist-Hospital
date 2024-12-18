@@ -115,8 +115,8 @@ const DanielsStruggle = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[118em hidden lg:block md:block]">
-        <p className="text-[33px] font-semibold px-[5em]">
+      <div className="mt-[118em] hidden md:block">
+        <p className="text-[33px] font-semibold px-[5em] hidden lg:block md:block">
           More Patient Stories
         </p>
         <Carousel items={stories} />
@@ -231,7 +231,7 @@ const DanielsStruggle = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[178em]">
+      <div className="mt-[178em] lg:hidden md:hidden">
         <p className="text-[33px] font-semibold px-[1em]">
           More Patient Stories
         </p>

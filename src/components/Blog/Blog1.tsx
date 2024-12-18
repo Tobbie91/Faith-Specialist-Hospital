@@ -160,9 +160,9 @@ const Blog1 = () => {
           men, possibly due to hormonal changes post-menopause.
         </p>
         <StaticImage
-          src="../../images/facebookContact.png"
+          src="../../images/treatment1.png"
           alt="Facebook"
-          className=""
+          className="mt-4"
         />
         <h3 className="text-[28px] font-semibold mt-4">Treatment Options</h3>
 
@@ -256,8 +256,10 @@ const Blog1 = () => {
           <Carousel items={blog2} />
         </div>
       </div>
-      <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center flex ml-[15em]">
+      <div className="flex justify-center">
+      <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center flex ">
           <Link to="/blog">See All Stories</Link>
+        </div>
         </div>
 
         {/* mobile */}
@@ -413,9 +415,9 @@ const Blog1 = () => {
           men, possibly due to hormonal changes post-menopause.
         </p>
         <StaticImage
-          src="../../images/facebookContact.png"
+          src="../../images/treatment1.png"
           alt="Facebook"
-          className=""
+          className="mt-[1em]"
         />
         <h3 className="text-[28px] font-semibold mt-4">Treatment Options</h3>
 
@@ -508,8 +510,10 @@ const Blog1 = () => {
           <p className="text-[33px] font-semibold px-[em]">Related Articles</p>
           <Carousel items={blog2} />
         </div>
+        <div className="flex justify-center">
         <div className="w-[153px] text-[18px] flex text-green-600 font-semibold items-center  mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center ml-[1em]">
           <Link to="/blog">See All Stories</Link>
+        </div>
         </div>
       </div>
       

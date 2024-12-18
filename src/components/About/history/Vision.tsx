@@ -4,11 +4,11 @@ const Vision = () => {
   return (
     <>
     {/* desktop */}
-    <div className="hidden lg:block ">
+    <div className="hidden lg:block mt-[1em]">
       <h1 className="lg:text-[39px] font-semibold px-[3em] py-[1em] ">
         We Are Guided by Our Mission, Vision, and Core Values
       </h1>
-      <div className="grid grid-cols-2 pl-[5em] ">
+      <div className="grid grid-cols-2 pl-[5em] mt-[2em] ">
         <div className="border border-[#E4E5EB] rounded-lg px-[1em] py-[2em] w-[604px]">
           <h3 className="lg:text-[28px] font-semibold text-[#017B64] py-3">
             Mission Statement
@@ -22,7 +22,7 @@ const Vision = () => {
           </p>
         </div>
         <div className="border border-[#E4E5EB] rounded-lg px-[1em] py-[2em]  w-[604px]">
-          <h3 className="lg:text-[28px] font-semibold text-[#017B64]">
+          <h3 className="lg:text-[28px] font-semibold text-[#017B64] py-3">
             Vision Statement
           </h3>
           <p className="lg:text-[22px] text-[#444A5B] ">

@@ -3,7 +3,7 @@ import React from 'react'
 
 const StoriesHero = () => {
   return (
-    <div className='relative'>
+    <div className='relative mt-[-2em]'>
           <StaticImage
           src="../../images/stories3.png"
           alt="LinkedIn"

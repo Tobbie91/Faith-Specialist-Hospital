@@ -12,8 +12,8 @@ const Services4 = () => {
     <div className="bg-[white] overflow-hidden">
       <Header backGround="bg-white" />
       <ServiceHero/>
-      <ServiceLinks4/>
-      <BackgroundSection padding="p-16">
+      <ServiceLinks4/>      
+      <BackgroundSection padding="lg:p-16 pt-3 px-3 pb-16">
           <TestimonialCarousel />
         </BackgroundSection>
 <BookAppointment />

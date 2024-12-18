@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image";
 
 //@ts-ignore
 const BlogCarousel = ({ items, filterBy = "all" }) => {
@@ -20,17 +20,17 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("all")}
             className={`px-4 py-2 rounded ${
               filter === "all"
-                ? "bg-[#017B64] text-white"
+                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
-            Show All
+            All
           </button>
           <button
             onClick={() => setFilter("Orthopedic Care")}
             className={`px-4 py-2 rounded ${
               filter === "Orthopedic Care"
-                ? "bg-green-500 text-white"
+                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -40,7 +40,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("Surgical Procedures")}
             className={`px-4 py-2 rounded ${
               filter === "Surgical Procedures"
-                ? "bg-green-500 text-white"
+                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -53,18 +53,20 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
               key={index}
               className="flex-shrink-0 w-full max-w-[350px] p-4 bg-white rounded-lg "
             >
-              {/* Image */}
-              {/* {item.image && (
-              <GatsbyImage
-                image={getImage(item.image)}
-                alt={item.title}
-                className="w-full h-[200px] object-cover rounded-md"
-              />
-            )} */}
-              <img
-                src={item.image}
-                className="w-full h-[200px] object-cover rounded-md"
-              />
+              {item.img.includes("treatment") && (
+                <StaticImage
+                  src="../../images/treatment.png"
+                  alt={item.title}
+                  className=" h-[200px] rounded-md"
+                />
+              )}
+              {item.img.includes("surgery") && (
+                <StaticImage
+                  src="../../images/surgery.png"
+                  alt={item.title}
+                  className="w-full h-[200px] object-cover rounded-md"
+                />
+              )}
               <div className="border border-gray-300 rounded-full px-2 py-1 mt-2 w-[170px]">
                 <p>{item.group}</p>
               </div>
@@ -83,11 +85,13 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             </div>
           ))}
         </div>
-        <Link to="/blog">
-        <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center justify-center text-center font-semibold">
-          See All Blogs
+        <div className="flex justify-center">
+          <Link to="/blog">
+            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md">
+              See All Blogs
+            </div>
+          </Link>
         </div>
-        </Link>
       </div>
 
       {/* mobile */}
@@ -132,18 +136,20 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
               key={index}
               className="flex-shrink-0 w-full max-w-[450px] p-4 bg-white rounded-lg "
             >
-              {/* Image */}
-              {/* {item.image && (
-              <GatsbyImage
-                image={getImage(item.image)}
-                alt={item.title}
-                className="w-full h-[200px] object-cover rounded-md"
-              />
-            )} */}
-              <img
-                src={item.image}
-                className="w-full h-[200px] object-cover rounded-md"
-              />
+              {item.img.includes("treatment") && (
+                <StaticImage
+                  src="../../images/treatment.png"
+                  alt={item.title}
+                  className=" h-[200px] rounded-md"
+                />
+              )}
+              {item.img.includes("surgery") && (
+                <StaticImage
+                  src="../../images/surgery.png"
+                  alt={item.title}
+                  className="w-full h-[200px] object-cover rounded-md"
+                />
+              )}
               <div className="border border-gray-300 rounded-full px-2 py-1 mt-2 w-[170px]">
                 <p>{item.group}</p>
               </div>
@@ -162,11 +168,14 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             </div>
           ))}
         </div>
-        <Link to="/blog">
-        <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center justify-center text-center font-semibold">
-          See All Blogs
+
+        <div className="flex justify-center">
+          <Link to="/blog">
+            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md">
+              See All Blogs
+            </div>
+          </Link>
         </div>
-        </Link>
       </div>
     </>
   );

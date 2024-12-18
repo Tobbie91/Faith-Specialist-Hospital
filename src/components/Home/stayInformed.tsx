@@ -18,8 +18,8 @@ const Informed = () => {
               </p>
             </div>
             <Link to="/blog">
-            <div className="flex justify-end mt-[27em]">
-              <button className="w-[195px] h-[56px] text-[#019E7D] font-semibold text-[18px] border border-[#017B64]">
+            <div className="flex justify-end mt-[27em] rounded-md">
+              <button className="w-[195px] h-[56px] text-[#019E7D] font-semibold text-[18px] border border-[#017B64] rounded-md">
               Sell All Blog Post
               </button>
        
@@ -234,6 +234,14 @@ const Informed = () => {
                     <p className="text-[23px] font-semibold mt-[2em]">
                       The Role of Medical Imaging <br /> in Modern Healthcare
                     </p>
+                    <Link to="/blog">
+            <div className="flex justify-center mt-[2em] mb-4">
+              <button className="w-[195px] h-[56px] text-[#019E7D] font-semibold text-[18px] border border-[#017B64] rounded-md">
+              Sell All Blog Post
+              </button>
+       
+            </div>
+            </Link>
                   </div>
                 </div>
               </div>

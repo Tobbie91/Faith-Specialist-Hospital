@@ -18,5 +18,12 @@
     "gatsby-plugin-mdx",
     "gatsby-transformer-remark",
     `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
   ],
 };

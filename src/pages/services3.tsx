@@ -13,7 +13,7 @@ const Services3 = () => {
       <Header backGround="bg-white" />
       <ServiceHero/>
       <ServiceLinks3/>
-      <BackgroundSection padding="p-16">
+      <BackgroundSection padding="lg:p-16 pt-3 px-3 pb-16">
           <TestimonialCarousel />
         </BackgroundSection>
 <BookAppointment />

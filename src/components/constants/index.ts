@@ -11,6 +11,7 @@ import stories3 from "../../images/story.png";
 import stories4 from "../../images/story.png";
 
 
+
 interface NavLink {
   id: string;
   title: string;
@@ -199,7 +200,7 @@ export const stories = [
     title: "11-Year-Old Grace Overcomes Blount’s Disease",
     description:
       "Grace struggled with severe bowlegs due to Blount's disease for years, visiting many hospitals without success. After surgery at Faith Specialist Hospital, her transformation was remarkable—she now stands tall and walks confidently. Faith Specialist Hospital gave Grace a new lease on life!",
-    img: stories3, 
+    img:  "stories3.png",
     link: "/patientstory",
   },
 ];
@@ -209,7 +210,7 @@ export const stories2 = [
     title: "From Struggles to Strength: Daniel’s Journey to Recovery",
     description:
       "At just five years old, Daniel faced the challenges of a windswept deformity caused by rickets. Thanks to expert care at Faith Specialist Hospital, he underwent a successful correction. Today, Daniel is thriving, walking tall, and embracing a brighter future.",
-    img: stories4, 
+      img:  "stories4.webp", 
     link: "/stories",
   },
 ];
@@ -219,7 +220,7 @@ export const blog1 = [
     title: "Understanding the Causes and Treatment of Osteoarthritis",
     description:
       "Osteoarthritis is a degenerative joint disorder where cartilage, the smooth tissue that cushions the ends of bones, wears away over time. ",
-    img: stories4, 
+      img: "treatment.png", 
     link: "/treatment-of-osteoarthritis-blog",
   },
 ];
@@ -228,7 +229,7 @@ export const blog2 = [
     title: "What to Expect During a Joint Replacement Surgery",
     description:
       "Joint replacement surgery can be life-changing for individuals with severe arthritis or injury-related joint damage. This guide walks you through every stage of the process, from preparation to recovery, helping you understand what to expect.",
-    img: stories4, 
+      img: "surgery.png", 
     link: "/joint-replacement-surgery",
   },
 ];
@@ -240,7 +241,7 @@ export const blogs = [
     title: "Understanding the Causes and Treatment of Osteoarthritis",
     description:
       "Osteoarthritis is a degenerative joint disorder where cartilage, the smooth tissue that cushions the ends of bones, wears away over time. ",
-    img: stories4, 
+    img: "../../images/treatment.png", 
     link: "/treatment-of-osteoarthritis-blog",
     group: "Orthopedic Care",
   },
@@ -248,7 +249,7 @@ export const blogs = [
     title: "What to Expect During a Joint Replacement Surgery",
     description:
       "Joint replacement surgery can be life-changing for individuals with severe arthritis or injury-related joint damage. This guide walks you through every stage of the process, from preparation to recovery, helping you understand what to expect.",
-    img: stories3, 
+    img: "../../images/surgery.png", 
     link: "/joint-replacement-surgery",
     group: "Surgical Procedures", 
   },

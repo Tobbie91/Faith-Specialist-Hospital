@@ -120,7 +120,7 @@ const BlountDisease = () => {
         </div>
       </div>
       <div className="mt-[118em] hidden md:block">
-        <p className="text-[33px] font-semibold px-[5em]">
+        <p className="text-[33px] font-semibold px-[5em] hidden lg:block md:block">
           More Patient Stories
         </p>
         <Carousel items={stories2} />

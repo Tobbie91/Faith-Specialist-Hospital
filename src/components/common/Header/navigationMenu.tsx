@@ -22,13 +22,14 @@ const NavigationMenu = () => {
           >
             <Link
               to={item.to || "#"}
-              className={`text-[16px] ${
+              className={`text-[16px] p-2 ${
                 item.subLinks ? "" : ""
               } p-2 ${
                 activeIndex === i && !item.subLinks
-                  ? "text-[#017B64] border-b-2 border-[#017B64]"
+                  ? "text-[#017B64] border-b-4 border-[#017B64]"
                   : "text-black"
-              } hover:text-[#017B64]`}
+              }
+              hover:text-[#017B64] transition duration-200`}
             >
               {item.title}
             </Link>

@@ -30,8 +30,8 @@ const ServiceHero = () => {
         <div className="border-t-2 border-white flex-grow"></div>
       </div>
 
-      <h2 className="text-[33px] font-semibold text-white mt-4 leading-tight">
-      Explore Our Specialized Orthopedic and General <br/> Medical Services
+      <h2 className="text-[33px] font-semibold text-white mt-4 leading-tight text-left">
+      Explore Our Specialized <br/> Orthopedic and General  Medical Services
       </h2>
     </div>
     </>
