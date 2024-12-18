@@ -5,8 +5,8 @@ import Do3 from "../../images/Do3.webp";
 import Do4 from "../../images/Do4.webp";
 import Do5 from "../../images/Do5.webp";
 import Do6 from "../../images/Do6.webp";
-import Test1 from "../../images/Test1.png";
-import Test2 from "../../images/Test2.png";
+import Test1 from "../../images/Test1.webp";
+import Test2 from "../../images/Test2.webp";
 import stories3 from "../../images/story.png";
 import stories4 from "../../images/story.png";
 
