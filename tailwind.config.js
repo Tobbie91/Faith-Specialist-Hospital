@@ -8,9 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Segoe UI", "sans-serif"],
-        felix: ["Felix", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
+        sans: ['Inter', 'sans-serif'],
       },
       colors: {
         primary: "#00040f",
@@ -29,6 +27,9 @@ module.exports = {
           dark: "#0D0D0D",
         },
       },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(107.15deg, rgba(200,200,200,0.7) 0%, rgba(255,120,140,0.3) 100%), linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.3))',
+      },
     },
     screens: {
       xs: "350px",
@@ -43,13 +44,11 @@ module.exports = {
       1380: "1380px",
       xxl: "1440px",
     },
-    backgroundImage: {
-      'hero-gradient': 'linear-gradient(107.15deg, rgba(200,200,200,0.7) 0%, rgba(255,120,140,0.3) 100%), linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.3))',
-    }
-    
-    
   },
   plugins: [
     require('@tailwindcss/line-clamp'),
+    require('tailwindcss-font-inter')({
+      importFontFace: true, 
+    }),
   ],
 };

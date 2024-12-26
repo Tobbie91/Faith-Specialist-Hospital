@@ -6,22 +6,22 @@ const WhatWeDo = () => {
   const path = "../../";
   return (
     <>
-      <div className="mt-[5em] hidden lg:block">
+      <div className="mt-[6em] hidden lg:block ">
         {/* Desktop */}
-        <h1 className="flex justify-center lg:text-[39px] font-semibold mb-6">
+        <h1 className="flex justify-center lg:text-[39px] font-medium mb-[1.4em]">
           What We Do
         </h1>
-        <div className="lg:flex lg:justify-center gap-4 xl:gap-8 hidden mb-[3em]">
+        <div className="flex justify-center gap-4 xl:gap-8 mb-[3em]">
           {whatweDoViews.map((view, i) => (
             <div
               className={`${
                 i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#FFFFFF]"
-              } rounded-[12px] p-4 text-white max-w-[416px] basis-[25%] shadow-lg`}
+              } rounded-[12px] p-4 text-white max-w-[371px] h-[320px] basis-[25%] shadow-lg items-center`}
             >
-              <div className="h-[199px] -[384px] mt-5 text-center items-center flex justify-center mb-5">
-                <img className="h-full" src={view.img.url} alt={view.img.alt} />
+              <div className="h-[160px] w-[370px] mt-5 text-center items-center flex justify-center mb-5">
+                <img className="h-[160px]" src={view.img.url} alt={view.img.alt} />
               </div>
-              <p className="lg:text-[20px] xs:text-[14.49px] 390:text-[15.49px] leading-[25.2px] text-[#444A5B] text-center">
+              <p className="lg:text-[20px] xs:text-[14.49px] 390:text-[15.49px] leading-[25.2px] text-[#444A5B] text-center font-medium ">
                 {view.copies}
               </p>
             </div>
@@ -32,12 +32,12 @@ const WhatWeDo = () => {
             <div
               className={`${
                 i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#FFFFFF]"
-              } rounded-[12px] p-4 text-white max-w-[416px] basis-[25%] shadow-lg`}
+              } rounded-[12px] p-4 text-white max-w-[371px] h-[320px] basis-[25%] shadow-lg`}
             >
-              <div className="h-[199px] -[384px] mt-5 flex justify-center mb-3">
-                <img className="h-full" src={view.img.url} alt={view.img.alt} />
+              <div className="h-[160px] w-[370px] mt-5 flex justify-center mb-3 items-center">
+                <img className="h-[160px]" src={view.img.url} alt={view.img.alt} />
               </div>
-              <p className="text-[13.49] lg:text-[20px] xs:text-[14.49px] 390:text-[15.49px] leading-[25.2px] text-[#444A5B] text-center ">
+              <p className="text-[13.49] lg:text-[20px] xs:text-[14.49px] 390:text-[15.49px] leading-[25.2px] text-[#444A5B] text-center font-medium">
                 {view.copies}
               </p>
             </div>
@@ -45,8 +45,8 @@ const WhatWeDo = () => {
         </div>
         <div className="flex justify-center mb-4">
           <LearnMore
-            className="w-[330px] h-[56px] mt-8 border border-[#017B64] hover:bg-[#F1F3F5] text-[#017B64]  text-[18px] font-semibold"
-            text="Learn more"
+            className="w-[330px] h-[56px] mt-8 border border-[#017B64] hover:bg-green-100 text-[#017B64]  text-[18px] font-medium"
+            text="Learn More"
             path={path}
           />
         </div>

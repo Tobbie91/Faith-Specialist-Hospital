@@ -20,7 +20,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("all")}
             className={`px-4 py-2 rounded ${
               filter === "all"
-                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
+                ? "hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white bg-green-500"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -30,7 +30,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("Orthopedic Care")}
             className={`px-4 py-2 rounded ${
               filter === "Orthopedic Care"
-                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
+                ? "hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white bg-green-500"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -40,7 +40,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("Surgical Procedures")}
             className={`px-4 py-2 rounded ${
               filter === "Surgical Procedures"
-                ? "bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white"
+                ? "hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white bg-green-500"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >

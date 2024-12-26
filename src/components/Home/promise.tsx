@@ -12,7 +12,7 @@ const PromiseSection = () => {
             <div className="flex xxl:gap-[70px] ">
               <div className="  mt-[-6em] xxl:mt-[-8em] xxl:ml-[-2em]">
                 <StaticImage src="../../images/Image.png" alt="Doctor"
-              className="xl:w-[290%] xxl:w-[300%] lg:w-[800%]"
+              className="xl:w-[290%] xxl:w-[390%] lg:w-[800%]"
               />
               </div>
               <PromiseText />

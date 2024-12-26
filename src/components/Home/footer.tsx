@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { FaithIcon } from "../../assets/icons/FaithLogo";
@@ -8,9 +9,9 @@ const Footer = () => {
     {/* Desktop */}
     <div className="bg-[#22252E] hidden lg:block">
       <div className="grid grid-cols-3 px-[4em] bg-[#22252E]">
-        <div className="flex flex-col pt-[2em] mb-8">
+        <div className="flex flex-col pt-[2em] mb-8 font-medium">
           <FaithIcon />
-          <p className="lg:text-[16px] text-[white] mb-4 mt-8">
+          <p className="lg:text-[16px] text-[white] mb-4 mt-8 ">
             Address: Plot 5 Block 2, Ogun State <br /> housing estate, off
             Idiroko expressway, <br /> Ota, Ogun State.
           </p>
@@ -20,18 +21,18 @@ const Footer = () => {
           <p className="lg:text-[16px] text-[white] mb-4">Tel: 08033977497</p>
         </div>
 
-        <div className="grid grid-cols-2">
-          <div className="flex flex-col pt-[2em] mb-8">
+        <div className="grid grid-cols-2 ">
+          <div className="flex flex-col pt-[2em] mb-8 font-normal">
             <p className="lg:text-[16px] text-[white]">The Hospital</p>
-            <a href="/service" className="lg:text-[16px] text-[white] mb-4 mt-8">About Us</a>
-            <a href="/gallery" className="lg:text-[16px] text-[white] mb-4">Our Gallery</a>
-            <a href="/teamMembers" className="lg:text-[16px] text-[white] mb-4">Our Team</a>
+            <a href="/service" className="lg:text-[16px] text-[white] mb-4 mt-8 font-light">About Us</a>
+            <a href="/gallery" className="lg:text-[16px] text-[white] mb-4 font-light">Our Gallery</a>
+            <a href="/teamMembers" className="lg:text-[16px] text-[white] mb-4 font-light">Our Team</a>
           </div>
           <div className="flex flex-col pt-[2em] mb-8">
-            <p className="lg:text-[16px] text-[white]">Resources</p>
-            <a href="/blog" className="lg:text-[16px] text-[white] mb-4 mt-8">Our Blog</a>
-            <a href="/stories" className="lg:text-[16px] text-[white] mb-4">Patient Stories</a>
-            <a href="/contact" className="lg:text-[16px] text-[white] mb-4">Contact Us</a>
+            <p className="lg:text-[16px] text-[white] font-normal">Resources</p>
+            <a href="/blog" className="lg:text-[16px] text-[white] mb-4 mt-8 font-light ">Our Blog</a>
+            <a href="/stories" className="lg:text-[16px] text-[white] mb-4 font-light">Patient Stories</a>
+            <a href="/contact" className="lg:text-[16px] text-[white] mb-4 font-light">Contact Us</a>
           </div>
         </div>
 
@@ -49,11 +50,12 @@ const Footer = () => {
   className="rounded-sm w-[320px] h-[48px] mb-4 p-4 placeholder-gray-500"
   placeholder="Your email..."
 />
-
+<Link to="/serviceOptions">
           <button
-            className="bg-[#017B64] text-white w-[320px] h-[48px] rounded-sm mb-8">
+            className="bg-[#017B64] text-white w-[320px] h-[48px] rounded-sm mb-8 hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)]">
             Subscribe
           </button>
+          </Link>
         </div>
       </div>
       <hr />
@@ -113,7 +115,7 @@ const Footer = () => {
 />
 
           <button
-            className="bg-[#017B64] text-white w-[320px] h-[48px] rounded-sm mb-8">
+            className="bg-[#017B64] text-white w-[320px] h-[48px] rounded-sm mb-8 hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)]">
             Subscribe
           </button>
         </div>

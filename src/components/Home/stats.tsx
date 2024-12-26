@@ -31,16 +31,16 @@ const StatsSection = () => {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden lg:block">
-        <div className="flex justify-center items-center py-10 bg-[white] ">
+      <div className="hidden lg:block font-sans  ">
+        <div className="flex justify-center items-center py-[4em] bg-[white]">
           {stats.map((stat, index) => (
             <React.Fragment key={index}>
               <div className="flex flex-col items-center text-center px-9">
-                <h3 className="lg:text-[48px] font-semibold text-[#111217]">
+                <h3 className="lg:text-[48px] font-[600px] font-sans text-[#111217]">
                   {stat.value}
                 </h3>
                 <p
-                  className="text-gray-600 mt-2 lg:text-[20px] font-normal"
+                  className="text-gray-600 mt-2 lg:text-[20px] font-normal leading-normal"
                   dangerouslySetInnerHTML={{ __html: stat.description }}
                 />
               </div>

@@ -128,7 +128,7 @@ export const navLinks: NavLink[] = [
       copies:
         "General Surgery and Plastic Surgical Services",
       img: {
-        url: Do3,
+        url: Do4,
         alt: "do3s",
       },
     },

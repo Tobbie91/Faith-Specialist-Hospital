@@ -41,15 +41,21 @@ const TestimonialCarousel = () => {
             {/* Testimonial content */}
             <div className="flex items-center">
               <div className="w-2/3 pl-[1.5em]">
-                <h3 className="lg:text-[28px] font-bold text-gray-800  mt-[1em]">
+                <h3 className="lg:text-[28px] font-bold text-gray-800  mt-[1em] pr-4">
                   {title}
                 </h3>
-                <p className="text-gray-600 mb-[0.5em] lg:text-[20px]  mt-[1em] font-normal ">
+                <p className="text-gray-600 mb-[0.5em] lg:text-[20px]  mt-[1em] font-light pr-7">
                   {description}
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="text-teal-600 lg:text-[18px] font-semibold mt-4 inline-block  mb-[2em]"
+                >
+                  Read More
+                </a> */}
+                <a
+                  href="#"
+                  className="text-teal-600 lg:text-[18px] font-semibold mt-4 inline-block mb-[2em] relative hover:underline hover:decoration-green-800 hover:underline-offset-4 focus:underline focus:decoration-green-800 focus:underline-offset-4"
                 >
                   Read More
                 </a>
@@ -83,7 +89,7 @@ const TestimonialCarousel = () => {
             ))}
           </div>
           <Link to="/stories">
-            <button className="mt-8 px-[4em] py-2 bg-transparent border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition w-[323px] h-[56px] font-semibold">
+            <button className="mt-8 px-[4em] py-2 bg-transparent border border-white text-white rounded-md hover:bg-green-100 hover:text-teal-600 transition w-[323px] h-[56px] font-semibold">
               See All Stories
             </button>
           </Link>

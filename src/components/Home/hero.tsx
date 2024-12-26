@@ -20,7 +20,7 @@ const HeroSection = () => {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden lg:block relative w-full h-[700px] overflow-hidden">
+      <div className="hidden lg:block relative w-full h-[720px] overflow-hidden">
         <div
           className="flex transition-transform duration-1000 ease-in-out"
           style={{
@@ -28,7 +28,7 @@ const HeroSection = () => {
             height: "100%",
           }}
         >
-          <div className="min-w-full h-full relative ">
+          <div className="min-w-full h-full relative font-sans ">
             <StaticImage
               src="../../images/HeroImages2.png"
               alt="Hero Image 1"
@@ -36,7 +36,7 @@ const HeroSection = () => {
               className="object-cover h-full w-full"
             />
             <div className="absolute inset-0 flex items-center justify-center ">
-              <h1 className="text-white text-[60px] font-semibold text-center">
+              <h1 className="text-white text-[60px] font-medium text-center">
                 COMPREHENSIVE GENERAL <br /> MEDICINE
               </h1>
             </div>
