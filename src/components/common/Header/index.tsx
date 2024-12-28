@@ -38,7 +38,7 @@ const Header = ({ backGround }: HeaderProps) => {
         <div className="hidden lg:block">
           <NavigationMenu />
         </div>
-        <div className="hidden lg:flex w-[22.2%] h-12  items-center justify-center rounded-[4px] text-[16px] font-semibold bg-[#017B64] hover:bg-[#017B64] cursor-pointer text-white whitespace-nowrap">
+        <div className="hidden lg:flex w-[22.2%] h-12  items-center justify-center rounded-[4px] text-[16px] font-semibold bg-[#017B64] hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] cursor-pointer text-white whitespace-nowrap">
           Schedule an Appointment
         </div>
       </div>

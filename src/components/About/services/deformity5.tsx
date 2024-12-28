@@ -34,39 +34,44 @@ const ServiceLinks5 = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -78,8 +83,8 @@ const ServiceLinks5 = () => {
     <>
     {/* desktop */}
     <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
-      <div className="flex flex-col pl-8 sticky top-[4em]"> 
+    <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
@@ -124,7 +129,7 @@ const ServiceLinks5 = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[1em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Medical Imaging, Physiotherapy, and Medical <br />
             Rehabilitation
@@ -138,7 +143,7 @@ const ServiceLinks5 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
             Faith Specialist Hospital is equipped with advanced medical imaging
             technology to facilitate accurate diagnosis and treatment planning.
             Our physiotherapy and medical rehabilitation services play a crucial
@@ -154,7 +159,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               MRI (Magnetic Resonance Imaging):{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We partner with outfits that provide MRI services. They provide
                 detailed images of soft tissues, organs, and structures within
                 the body. MRI is particularly useful for diagnosing conditions
@@ -167,7 +172,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               X-rays:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 X-rays are a fundamental diagnostic tool for evaluating bone
                 injuries, fractures, and joint conditions. Our digital X-ray
                 equipment provides clear and precise images, aiding in the
@@ -179,7 +184,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Fluoroscopy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Fluoroscopy allows real-time imaging of the body’s internal
                 structures using continuous X-ray technology. This technique is
                 particularly useful for guiding orthopedic procedures, such as
@@ -194,7 +199,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Physical Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our physical therapy services focus on restoring movement,
                 strength, and function following injury, surgery, or illness. We
                 create individualized treatment plans that include exercises,
@@ -206,7 +211,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Occupational Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Occupational therapy helps patients regain the ability to
                 perform daily activities and achieve independence. Our
                 occupational therapists work with patients to develop customized
@@ -218,7 +223,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Neurological Rehabilitation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our neurological rehabilitation services cater to patients with
                 conditions such as stroke, traumatic brain injury, and spinal
                 cord injury. We provide comprehensive therapy to improve motor
@@ -230,7 +235,7 @@ const ServiceLinks5 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Pediatric Rehabilitation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We offer pediatric rehabilitation services for children with
                 developmental delays, congenital conditions, and injuries. Our
                 therapists use child-friendly techniques to promote physical

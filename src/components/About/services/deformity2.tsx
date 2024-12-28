@@ -34,39 +34,44 @@ const ServiceLinks2 = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -79,14 +84,14 @@ const ServiceLinks2 = () => {
    
      {/* desktop */}
      <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
-      <div className="flex flex-col pl-8 sticky top-[4em]"> 
+     <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
             IconComponent: Deformity1,
             text: "Deformity Correction and Pediatric \nOrthopedic Services",
-            isActive: activeLink === "services", // Pass the correct value here
+            isActive: activeLink === "services", 
           })}
           {renderLink({
             linkId: "services1",
@@ -125,7 +130,7 @@ const ServiceLinks2 = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[1em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Orthopedic and Plastic Surgical Services
           </h3>
@@ -138,7 +143,7 @@ const ServiceLinks2 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we specialize in a wide range of
             orthopedic and plastic surgical procedures, focusing on restoring
             function, mobility, and aesthetics. Our team of skilled surgeons
@@ -153,7 +158,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Joint Replacement Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We perform total and partial joint replacement surgeries,
                 including hip, knee, and shoulder replacements. Our advanced
                 techniques and prosthetic options ensure improved mobility and
@@ -164,7 +169,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Spine Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our spine surgery services include procedures for degenerative
                 disc disease, spinal stenosis, herniated discs, and spinal
                 fractures. We utilize minimally invasive techniques whenever
@@ -175,7 +180,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Arthroscopic Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We offer arthroscopic procedures for the diagnosis and treatment
                 of joint issues such as ligament tears, cartilage damage, and
                 joint instability. These minimally invasive surgeries involve
@@ -190,7 +195,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Reconstructive Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We offer reconstructive procedures to restore function and
                 appearance following orthopedic trauma or surgery. This includes
                 soft tissue reconstruction, tendon transfers, and flap surgeries
@@ -213,7 +218,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Limb Salvage and Reconstruction:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 For patients with severe limb injuries or tumors, we offer limb
                 salvage surgeries and reconstruction. Our multidisciplinary team
                 works together to preserve as much function and appearance as
@@ -224,7 +229,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Scar Revision and Soft Tissue Repair:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Post-surgical and post-traumatic scars can be addressed through
                 our scar revision services. We use a variety of techniques to
                 improve the appearance of scars, enhance skin texture, and
@@ -235,7 +240,7 @@ const ServiceLinks2 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Microsurgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We utilize advanced microsurgical techniques for complex
                 reconstructive procedures, such as free tissue transfer and
                 nerve repair. These techniques allow for precise and effective

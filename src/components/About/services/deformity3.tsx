@@ -34,39 +34,44 @@ const ServiceLinks3 = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -78,8 +83,8 @@ const ServiceLinks3 = () => {
     <>
    {/* desktop */}
    <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
-      <div className="flex flex-col pl-8 sticky top-[4em]"> 
+   <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
@@ -124,7 +129,7 @@ const ServiceLinks3 = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[1em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Full Laboratory and General Medical Services
           </h3>
@@ -137,7 +142,7 @@ const ServiceLinks3 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we provide comprehensive management of
             fractures and their complications. Our skilled orthopedic team
             employs advanced techniques to diagnose and treat fractures promptly
@@ -152,7 +157,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Advanced Diagnostic Testing:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our laboratory is outfitted with the latest technology, allowing
                 us to perform a comprehensive array of diagnostic tests. From
                 routine blood work to specialized tests, our services provide
@@ -164,7 +169,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Hematology and Coagulation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our hematology services include complete blood counts (CBC),
                 coagulation studies, and other blood tests to diagnose and
                 manage blood disorders and clotting conditions.
@@ -174,7 +179,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Immunology and Serology:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our immunology and serology tests are designed to detect and
                 monitor immune system disorders, infections, and autoimmune
                 diseases, providing essential information to guide treatment
@@ -188,7 +193,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Preventive Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We focus on preventive healthcare to maintain overall health and
                 well-being. Our services include routine check-ups,
                 vaccinations, screening tests, and lifestyle counseling to help
@@ -199,7 +204,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Chronic Disease Management:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our team provides comprehensive management for chronic
                 conditions like diabetes, hypertension, heart disease, and
                 asthma. We offer personalized treatment plans, medication
@@ -212,7 +217,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Comprehensive Health Assessments:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We offer detailed health assessments to evaluate overall health
                 status, identify risk factors, and create personalized health
                 plans. These assessments include physical examinations,
@@ -234,7 +239,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Men's Health Services:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We address the specific health needs of men through services
                 such as prostate exams, testosterone evaluations, cardiovascular
                 screenings, and preventive care.
@@ -244,7 +249,7 @@ const ServiceLinks3 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Pediatric Care::{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our pediatric services ensure the health and well-being of
                 children from infancy through adolescence. We provide routine
                 check-ups, immunizations, growth and development assessments,

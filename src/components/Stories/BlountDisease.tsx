@@ -12,7 +12,7 @@ const BlountDisease = () => {
           A New Beginning: 11-Year-Old Grace <br />
           Overcomes Blount’s Disease
         </h1>
-        <p className="text-[16px] font-normal px-[m] text-[#444A5B] mt-4">
+        <p className="text-[16px] font-light px-[m] text-[#444A5B] mt-4">
           Grace, an energetic and spirited 11-year-old, faced a challenging
           journey due to Blount's disease, a condition that caused severe genu
           varum (bowleggedness). Her condition not only impacted her physical
@@ -24,7 +24,7 @@ const BlountDisease = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             The Challenge
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             From an early age, Grace’s family noticed the progressive bowing of
             her legs, which worsened as she grew older. Her condition limited
             her ability to participate in activities with her peers, causing her
@@ -38,7 +38,7 @@ const BlountDisease = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Pre-Surgery Preparation
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             Upon arrival, Grace’s case was thoroughly evaluated by our team of
             orthopedic specialists. Clinical examinations and medical imaging
             confirmed severe bilateral genu varum resulting from advanced
@@ -51,7 +51,7 @@ const BlountDisease = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             The Procedure
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             Grace underwent a carefully planned corrective surgery at Faith
             Specialist Hospital. Our experienced team employed cutting-edge
             techniques, including osteotomy (bone realignment) and internal
@@ -60,7 +60,7 @@ const BlountDisease = () => {
             recovery outcome.{" "}
           </p>
 
-          <p className="mt-4">
+          <p className="mt-4 font-light">
             {" "}
             Our team also provided post-operative support, including
             physiotherapy sessions and detailed guidance for at-home care. This
@@ -83,7 +83,7 @@ const BlountDisease = () => {
               alt="LinkedIn"
               className="w-[]"
             />
-            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
               Before Surgery: Grace’s legs showed significant outward bowing in
               both the front and back views, a hallmark of Blount’s disease.
               These deformities greatly hindered her walking ability and
@@ -99,7 +99,7 @@ const BlountDisease = () => {
               alt="LinkedIn"
               className="w-[]"
             />
-            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-6">
+            <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-6 font-light">
               Three Months After Surgery: The transformation was remarkable. The
               front-view image revealed straightened legs with proper alignment,
               allowing Grace to stand tall and walk with confidence.
@@ -110,7 +110,7 @@ const BlountDisease = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             A New Chapter
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             Grace’s story is a testament to the expertise and dedication of the
             Faith Specialist Hospital team. Today, she moves with ease,
             participates in her favorite activities, and embraces life with a

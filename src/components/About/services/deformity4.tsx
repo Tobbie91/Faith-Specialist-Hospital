@@ -34,39 +34,44 @@ const ServiceLinks4 = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -78,8 +83,8 @@ const ServiceLinks4 = () => {
     <>
    {/* desktop */}
    <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 ">
-      <div className="flex flex-col pl-8 sticky top-[4em] h-screen">
+   <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
@@ -124,7 +129,7 @@ const ServiceLinks4 = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[1em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Management of Accident Victims and Ambulance <br />
             Services
@@ -138,7 +143,7 @@ const ServiceLinks4 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
             We are fully equipped to handle emergency cases, including the
             management of accident victims and multiple injured patients. Our
             comprehensive emergency services ensure rapid stabilization,
@@ -153,7 +158,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               24/7 Emergency Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our emergency department operates around the clock, staffed by
                 highly trained emergency physicians, nurses, and support staff.
                 We are prepared to handle all types of accident-related
@@ -166,7 +171,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Rapid Stabilization:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Upon arrival, accident victims receive immediate medical
                 attention. Our priority is to stabilize patients quickly,
                 addressing life-threatening conditions and managing pain. We
@@ -180,7 +185,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Trauma Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our team includes experienced trauma surgeons who specialize in
                 surgical interventions for accident-related injuries. Whether
                 it's emergency surgery to control bleeding, repair fractures, or
@@ -206,7 +211,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Neurological and Spinal Injury Management:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 For patients with head, neck, or spinal injuries, our
                 neurosurgeons and spine specialists offer expert care. We
                 provide both surgical and non-surgical treatments to address
@@ -218,7 +223,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Rehabilitation and Physical Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Post-acute care is critical for recovery. Our rehabilitation
                 services include physical therapy, occupational therapy, and
                 pain management programs designed to help accident victims
@@ -232,7 +237,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Emergency Response:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our ambulance service partnerships are designed for rapid
                 response to emergency situations. We are in partnerships with a
                 fleet of providers with well-equipped ambulances staffed by
@@ -256,7 +261,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Trauma Care in Transit:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our paramedics are skilled in providing trauma care, including
                 wound management, fracture stabilization, and pain relief. They
                 are trained to perform life-saving procedures such as CPR, and
@@ -267,7 +272,7 @@ const ServiceLinks4 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Inter-Hospital Transfers:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We also offer inter-hospital transfer services for patients who
                 require specialized care not available at the initial treatment
                 facility. Our ambulances are equipped to ensure safe and

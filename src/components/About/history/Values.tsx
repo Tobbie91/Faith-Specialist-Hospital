@@ -10,27 +10,27 @@ const Values = () => {
         <div className="pr-[4em]">
           <h2 className="lg:text-[33px] text=[#111217]">Core Values</h2>
           <h3 className="lg:text-[23px] text-[#017B64] font-semibold mb-3 mt-[1em]">Compassion</h3>
-          <p className="lg:text-[18px] text-[#444A5B] mb-4">
+          <p className="lg:text-[18px] text-[#444A5B] mb-4 font-light ">
             We treat each patient with empathy, kindness, and respect, ensuring
             that their needs and concerns are addressed with the utmost care.
           </p>
           <h3 className="lg:text-[23px] text-[#017B64] font-semibold mb-3 mt-[1em]">Excellence</h3>
-          <p className="lg:text-[18px] text-[#444A5B] mb-4">
+          <p className="lg:text-[18px] text-[#444A5B] mb- 4 font-light ">
             We treat each patient with empathy, kindness, and respect, ensuring
             that their needs and concerns are addressed with the utmost care.
           </p>
           <h3 className="lg:text-[23px] text-[#017B64] font-semibold mb-3 mt-[1em]">Integrity</h3>
-          <p className="lg:text-[18px] text-[#444A5B] mb-4">
+          <p className="lg:text-[18px] text-[#444A5B] mb-4 font-light ">
             We treat each patient with empathy, kindness, and respect, ensuring
             that their needs and concerns are addressed with the utmost care.
           </p>
           <h3 className="lg:text-[23px] text-[#017B64] font-semibold mb-3 mt-[1em]">Professionalism</h3>
-          <p className="lg:text-[18px] text-[#444A5B] mb-4">
+          <p className="lg:text-[18px] text-[#444A5B] mb-4 font-light ">
             We treat each patient with empathy, kindness, and respect, ensuring
             that their needs and concerns are addressed with the utmost care.
           </p>
         </div>
-        <div className="">
+        <div className="mt-6">
           <StaticImage src="../../../images/ValueImage.webp" alt="LinkedIn" 
                 className=" ml-[2.7em] w-[537px] h-[626px] mb-4 rounded-lg"/>
         </div> 

@@ -365,7 +365,7 @@ const Blog2 = () => {
           <Carousel items={blog1} />
         </div>
 
-        <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center flex ml-[1em]">
+        <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center flex ml-[1em] hover:bg-green-100">
           <Link to="/blog">See All Stories</Link>
         </div>
       </div>

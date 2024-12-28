@@ -13,7 +13,7 @@ const DanielsStruggle = () => {
           From Struggles to Strength: Daniel’s <br />
           Journey to Recovery
         </h1>
-        <p className="text-[16px] font-normal px-[m] text-[#444A5B] mt-4">
+        <p className="text-[16px]  px-[m] text-[#444A5B] mt-4 font-light">
           At just five years old, Daniel’s life was marked by struggles no child
           should face. Born with a windswept deformity caused by rickets, his
           legs curved outward in opposite directions, making walking a painful
@@ -25,7 +25,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Initial Struggles
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             Daniel’s parents tried everything within their reach. They visited
             multiple hospitals, hoping for a solution to their son’s condition.
             But each visit ended in disappointment, with no clear path to
@@ -38,7 +38,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Diagnosis and Treatment Plan
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             At Faith Specialist Hospital, Daniel’s family found not just hope
             but a clear plan. During their first consultation, the orthopedic
             team, led by the Medical Director, carefully assessed Daniel’s
@@ -52,7 +52,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Transformation and Outcome
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             The day of surgery marked a turning point for Daniel. The hospital’s
             skilled surgeons employed advanced techniques to realign his legs.
             The procedure was a success, but the journey was far from over.
@@ -66,7 +66,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             The Transformation
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
             Three months later, the results were astonishing. Daniel’s legs were
             straight, his gait was steady, and his once-shy demeanor was
             replaced by a beaming smile. For the first time, Daniel could run,
@@ -101,21 +101,21 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Gratitude and Inspiration
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4">
+          <p className="text-[16px] px-[em] text-[#444A5B] mt-4 font-light">
             Daniel’s parents are overwhelmed with gratitude. “Faith Specialist
             Hospital didn’t just heal our son’s legs; they gave him a new life,”
             his father shared. Today, Daniel’s story stands as a testament to
             the power of expert care, compassion, and resilience.{" "}
           </p>
 
-          <p className="mt-4">
+          <p className="mt-4 font-light">
             Faith Specialist Hospital continues to inspire hope, proving that
             with the right care, even the most challenging conditions can be
             overcome.
           </p>
         </div>
       </div>
-      <div className="mt-[118em] hidden md:block">
+      <div className="mt-[120em] hidden md:block">
         <p className="text-[33px] font-semibold px-[5em] hidden lg:block md:block">
           More Patient Stories
         </p>

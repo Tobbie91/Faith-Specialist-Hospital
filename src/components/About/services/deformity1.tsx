@@ -36,39 +36,44 @@ const ServiceLinks1 = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%]  py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -80,8 +85,8 @@ const ServiceLinks1 = () => {
     <>
    {/* desktop */}
    <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8">
-      <div className="flex flex-col pl-8 sticky top-[4em]"> 
+   <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
@@ -126,7 +131,7 @@ const ServiceLinks1 = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[1em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Management of Fracture and Complications of <br /> Fractures
           </h3>
@@ -139,7 +144,7 @@ const ServiceLinks1 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we provide comprehensive management of
             fractures and their complications. Our skilled orthopedic team
             employs advanced techniques to diagnose and treat fractures promptly
@@ -154,7 +159,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Initial Assessment and Diagnosis:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We utilize state-of-the-art imaging technologies, including
                 X-rays, CT scans, and MRI, to accurately diagnose the type and
                 extent of fractures. Our detailed assessment ensures a precise
@@ -176,7 +181,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Surgical Intervention:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 In cases where fractures are complex or involve joint surfaces,
                 surgical intervention may be required. Our orthopedic surgeons
                 are skilled in performing a variety of procedures, including
@@ -188,7 +193,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
             Reduction Techniques:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
           We employ both closed reduction (manipulating the bone without surgery) and open reduction (surgical alignment of the bone) techniques to ensure proper alignment and stabilization of the fracture.
               </span>
             </p>
@@ -199,7 +204,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
             Delayed Union and Non-Union: {" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
           Some fractures may fail to heal properly, leading to delayed union or non-union. Our team addresses these complications with advanced techniques such as bone grafting, electrical bone stimulation, and revision surgeries to promote healing.
               </span>
             </p>
@@ -207,7 +212,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
             Malunion:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
               When a fracture heals in an incorrect position, it can lead to deformity and impaired function. We correct malunions through osteotomy procedures, realigning the bone to its proper position for improved function and appearance.
               </span>
             </p>
@@ -215,7 +220,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
             Infection:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
            Fractures can sometimes lead to infections, particularly in open fractures. Our comprehensive infection management includes antibiotic therapy, surgical debridement, and the use of specialized techniques to ensure the infection is controlled and the bone heals properly.
               </span>
             </p>
@@ -223,7 +228,7 @@ const ServiceLinks1 = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
             Complex Regional Pain Syndrome (CRPS):{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
            CRPS is a chronic pain condition that can develop after a fracture. Our multidisciplinary team provides pain management, physical therapy, and psychological support to help patients manage this condition and improve their quality of life.
               </span>
             </p>

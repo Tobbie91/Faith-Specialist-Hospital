@@ -76,7 +76,7 @@ const Blog1 = () => {
           </div>
         </div>
 
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Osteoarthritis (OA) is the most common form of arthritis, affecting
           over 500 million people worldwide. Characterized by the gradual
           breakdown of joint cartilage, it leads to pain, stiffness, and limited
@@ -91,7 +91,7 @@ const Blog1 = () => {
         <h3 className="text-[28px] font-semibold mt-4">
           What is Osteoarthritis?
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Osteoarthritis is a degenerative joint disorder where cartilage, the
           smooth tissue that cushions the ends of bones, wears away over time.
           Without this protective layer, bones grind against each other, causing
@@ -104,28 +104,28 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700 mt-3">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>Joint pain during or after movement.</div>
+            <div className="font-light">Joint pain during or after movement.</div>
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Stiffness, especially in the morning or after periods of
               inactivity.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
+            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2 font-light"></span>
             <div>Swelling or tenderness in affected joints.</div>
           </li>
           <li className="flex items-start">
-            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
+            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2 font-light"></span>
             <div>Decreased range of motion</div>
           </li>
         </ul>
         <h3 className="text-[28px] font-semibold mt-4">
           Causes of Osteoarthritis
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light  text-[#444A5B] mt-4">
           Understanding what leads to OA can help with both prevention and
           management.
         </p>
@@ -133,29 +133,29 @@ const Blog1 = () => {
         <h3 className="text-[23px] font-semibold mt-4">
           1. Age-Related Degeneration:
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Cartilage naturally wears down as we age. Most OA cases occur in
           people aged 50 and above.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">
           2. Joint Injuries and Overuse:
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Sports injuries, workplace strain, or repetitive movements can
           increase the risk of OA, even years after the initial trauma.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">3. Obesity</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Excess weight places added stress on weight-bearing joints like the
           knees and hips, accelerating cartilage breakdown.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">4. Genetics</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           A family history of OA can predispose individuals to developing the
           condition earlier or more severely.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">5. Gender</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] text-[#444A5B] mt-4 font-light">
           Women, particularly those over 50, are more likely to develop OA than
           men, possibly due to hormonal changes post-menopause.
         </p>
@@ -172,21 +172,21 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Physical Therapy: Exercises tailored to strengthen muscles and
               improve flexibility can reduce joint strain.
             </div>
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Medications: NSAIDs (non-steroidal anti-inflammatory drugs) and
               acetaminophen help manage pain and inflammation.
             </div>
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Injections: Corticosteroid or hyaluronic acid injections can
               provide temporary relief.
             </div>
@@ -198,7 +198,7 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700 mt-3">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               {" "}
               Weight Management: Losing even a small amount of weight can
               significantly reduce joint stress.
@@ -206,7 +206,7 @@ const Blog1 = () => {
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Low-Impact Activities: Swimming, cycling, and yoga keep joints
               mobile without overburdening them.
             </div>
@@ -215,13 +215,13 @@ const Blog1 = () => {
         <h3 className="text-[23px] font-semibold mt-4">
           Surgical Interventions:
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           For severe cases, surgery may be the best option:
         </p>
         <ul className="space-y-4 pl-5 text-gray-700 mt-3">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               {" "}
               Arthroscopy: Minimally invasive procedure to clean out joint
               debris.
@@ -229,7 +229,7 @@ const Blog1 = () => {
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Joint Replacement: Replacing damaged joints with prosthetics can
               restore mobility and alleviate pain.
             </div>
@@ -238,13 +238,13 @@ const Blog1 = () => {
         <h3 className="text-[28px] font-semibold mt-4">
           Living with Osteoarthritis
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           OA is a lifelong condition, but proactive management can minimize its
           impact. Regular check-ups, adherence to prescribed treatments, and
           maintaining a positive mindset are key.
         </p>
         <h3 className="text-[28px] font-semibold mt-4">Conclusion</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Osteoarthritis doesn’t have to define your life. By understanding its
           causes and exploring comprehensive treatment options, you can manage
           symptoms and maintain an active lifestyle. For personalized advice,
@@ -257,7 +257,7 @@ const Blog1 = () => {
         </div>
       </div>
       <div className="flex justify-center">
-      <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center flex ">
+      <div className="w-[167px] text-[18px] text-green-600 font-semibold items-center text-center mt-[1em] border border-green-600  rounded-md h-[56px] mb-[2em] justify-center flex hover:bg-green-100">
           <Link to="/blog">See All Stories</Link>
         </div>
         </div>
@@ -331,7 +331,7 @@ const Blog1 = () => {
           </div>
         </div>
 
-        <p className="text-[18px] font-normal text-[#444A5B] mt-[2em]">
+        <p className="text-[18px] font-light text-[#444A5B] mt-[2em]">
           Osteoarthritis (OA) is the most common form of arthritis, affecting
           over 500 million people worldwide. Characterized by the gradual
           breakdown of joint cartilage, it leads to pain, stiffness, and limited
@@ -346,7 +346,7 @@ const Blog1 = () => {
         <h3 className="text-[28px] font-semibold mt-4">
           What is Osteoarthritis?
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Osteoarthritis is a degenerative joint disorder where cartilage, the
           smooth tissue that cushions the ends of bones, wears away over time.
           Without this protective layer, bones grind against each other, causing
@@ -362,55 +362,55 @@ const Blog1 = () => {
             <div>Joint pain during or after movement.</div>
           </li>
           <li className="flex items-start">
-            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
+            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2 font-light"></span>
             <div>
               Stiffness, especially in the morning or after periods of
               inactivity.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
+            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2 font-light"></span>
             <div>Swelling or tenderness in affected joints.</div>
           </li>
           <li className="flex items-start">
-            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
+            <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2 font-light"></span>
             <div>Decreased range of motion</div>
           </li>
         </ul>
         <h3 className="text-[28px] font-semibold mt-4">
           Causes of Osteoarthritis
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px]  text-[#444A5B] mt-4 font-light">
           Understanding what leads to OA can help with both prevention and
           management.
         </p>
 
-        <h3 className="text-[23px] font-semibold mt-4">
+        <h3 className="text-[23px] font-semibold mt-4 ">
           1. Age-Related Degeneration:
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px]  text-[#444A5B] mt-4 font-light">
           Cartilage naturally wears down as we age. Most OA cases occur in
           people aged 50 and above.
         </p>
-        <h3 className="text-[23px] font-semibold mt-4">
+        <h3 className="text-[23px] font-semibold mt-4 ">
           2. Joint Injuries and Overuse:
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] text-[#444A5B] mt-4 font-light">
           Sports injuries, workplace strain, or repetitive movements can
           increase the risk of OA, even years after the initial trauma.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">3. Obesity</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px]  text-[#444A5B] mt-4 font-light">
           Excess weight places added stress on weight-bearing joints like the
           knees and hips, accelerating cartilage breakdown.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">4. Genetics</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           A family history of OA can predispose individuals to developing the
           condition earlier or more severely.
         </p>
         <h3 className="text-[23px] font-semibold mt-4">5. Gender</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Women, particularly those over 50, are more likely to develop OA than
           men, possibly due to hormonal changes post-menopause.
         </p>
@@ -427,21 +427,21 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Physical Therapy: Exercises tailored to strengthen muscles and
               improve flexibility can reduce joint strain.
             </div>
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Medications: NSAIDs (non-steroidal anti-inflammatory drugs) and
               acetaminophen help manage pain and inflammation.
             </div>
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Injections: Corticosteroid or hyaluronic acid injections can
               provide temporary relief.
             </div>
@@ -453,7 +453,7 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700 mt-3">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               {" "}
               Weight Management: Losing even a small amount of weight can
               significantly reduce joint stress.
@@ -461,7 +461,7 @@ const Blog1 = () => {
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Low-Impact Activities: Swimming, cycling, and yoga keep joints
               mobile without overburdening them.
             </div>
@@ -476,7 +476,7 @@ const Blog1 = () => {
         <ul className="space-y-4 pl-5 text-gray-700 mt-3">
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               {" "}
               Arthroscopy: Minimally invasive procedure to clean out joint
               debris.
@@ -484,7 +484,7 @@ const Blog1 = () => {
           </li>
           <li className="flex items-start">
             <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-2"></span>
-            <div>
+            <div className="font-light">
               Joint Replacement: Replacing damaged joints with prosthetics can
               restore mobility and alleviate pain.
             </div>
@@ -493,13 +493,13 @@ const Blog1 = () => {
         <h3 className="text-[28px] font-semibold mt-4">
           Living with Osteoarthritis
         </h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           OA is a lifelong condition, but proactive management can minimize its
           impact. Regular check-ups, adherence to prescribed treatments, and
           maintaining a positive mindset are key.
         </p>
         <h3 className="text-[28px] font-semibold mt-4">Conclusion</h3>
-        <p className="text-[18px] font-normal text-[#444A5B] mt-4">
+        <p className="text-[18px] font-light text-[#444A5B] mt-4">
           Osteoarthritis doesn’t have to define your life. By understanding its
           causes and exploring comprehensive treatment options, you can manage
           symptoms and maintain an active lifestyle. For personalized advice,
@@ -511,7 +511,7 @@ const Blog1 = () => {
           <Carousel items={blog2} />
         </div>
         <div className="flex justify-center">
-        <div className="w-[153px] text-[18px] flex text-green-600 font-semibold items-center  mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center ml-[1em]">
+        <div className="w-[153px] text-[18px] flex text-green-600 font-semibold items-center  mt-[1em] border border-green-600 rounded-md h-[56px] mb-[2em] justify-center ml-[1em] hover:bg-green-100">
           <Link to="/blog">See All Stories</Link>
         </div>
         </div>

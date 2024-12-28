@@ -38,39 +38,44 @@ const ServiceLinks = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
         style={
           activeLink === linkId
             ? {
-                border: "2px solid transparent",
-                borderImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%) 1",
-                backgroundClip: "text",
+                border: "2px solid transparent", 
+                borderRadius: "12px",
                 backgroundImage:
-                  "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                  "linear-gradient(white, white), linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+                backgroundOrigin: "border-box",
+                backgroundClip: "padding-box, border-box", 
+                padding:"1rem",
               }
-            : {}
+            : {
+                border: "2px solid #C3C6D2", 
+              }
         }
       >
         <span className="pl-3">
           {/* @ts-ignore */}
-          <IconComponent isActive={isActive} /> {/* Pass isActive here */}
+          <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] ${
+          className={`lg:text-[15px] rounded-md ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
             activeLink === linkId
-              ? {
-                  backgroundImage:
-                    "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
-                  backgroundClip: "text",
-                }
-              : {}
+            ? {
+              backgroundImage:
+                "linear-gradient(292.99deg, #0BBE95 -1.96%, #EE1433 100%)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent", 
+            }
+          : {}
           }
         >
           {text}
@@ -81,9 +86,9 @@ const ServiceLinks = () => {
   return (
     <>
    {/* desktop */}
-    <div className="mt-[4em] mb-[2em] hidden lg:block md:block">
-      <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 ">
-      <div className="flex flex-col pl-8 sticky top-[4em] h-screen">
+    <div className="mt-[4em] mb-[2em] hidden lg:block md:block ">
+    <div className="grid grid-cols-[auto_1px_auto] items-start gap-8 h-screen">
+    <div className="flex flex-col pl-8 sticky top-[4em] h-[calc(100vh-4em)] overflow-auto">
           {renderLink({
             linkId: "services",
             route: "/services",
@@ -128,7 +133,7 @@ const ServiceLinks = () => {
           })}
         </div>
         <div className="w-[1px] bg-gray-300 h-full mx-auto"></div>
-        <div className="pl-[2em] w-[100%] pr-[2em]">
+        <div className="pl-[2em] w-[100%] pr-[2em] overflow-auto h-[calc(100vh-4em)]">
           <h3 className="lg:text-[30px] font-semibold">
             Deformity Correction and Pediatric Orthopedic <br /> Services
           </h3>
@@ -141,7 +146,7 @@ const ServiceLinks = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[14px]">
+          <p className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
             At Faith Specialist Hospital, we specialize in orthopedic care,
             including the correction of deformities and comprehensive pediatric
             orthopedic services. Our dedicated team of orthopedic surgeons is
@@ -156,7 +161,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Congenital Deformities:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We treat congenital deformities such as clubfoot, congenital hip
                 dysplasia, and limb length discrepancies. Our specialists use a
                 combination of surgical and non-surgical methods to correct
@@ -168,7 +173,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Acquired Deformities:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our team addresses acquired deformities resulting from trauma,
                 infection, degeneration, cancer or other medical conditions.
                 Using advanced surgical techniques, we correct these deformities
@@ -193,7 +198,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Fracture Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We provide specialized care for fractures in children, ensuring
                 that their growing bones heal properly. Our pediatric orthopedic
                 team uses child-friendly approaches and technologies to minimize
@@ -204,7 +209,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Scoliosis and Spinal Disorders:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We diagnose and treat spinal disorders such as scoliosis,
                 kyphosis, and other spine-related issues in children. Our
                 comprehensive treatment plans include observation, bracing, and
@@ -215,7 +220,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Sports Injuries:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Our pediatric orthopedic specialists are experienced in treating
                 sports injuries in young athletes. From sprains and strains to
                 more complex injuries, we offer tailored treatment plans to get
@@ -226,7 +231,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Developmental Disorders:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 We manage a variety of developmental orthopedic conditions,
                 including cerebral palsy and spina bifida. Our multidisciplinary
                 approach ensures that children receive holistic care, including
@@ -237,7 +242,7 @@ const ServiceLinks = () => {
           <div className="mt-4">
             <p className="font-semibold lg:text-[14px]">
               Growth Plate Injuries:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
+              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
                 Injuries to the growth plates require specialized care to
                 prevent long-term complications. Our pediatric orthopedic team
                 is adept at treating these injuries, ensuring proper healing and

@@ -67,7 +67,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
                   className="w-full h-[200px] object-cover rounded-md"
                 />
               )}
-              <div className="border border-gray-300 rounded-full px-2 py-1 mt-2 w-[170px]">
+              <div className="border border-gray-300 rounded-full px-4 py-1 mt-2 w-[185px] whitespace-nowrap">
                 <p>{item.group}</p>
               </div>
               <h3 className="mt-4 text-lg font-bold text-gray-800">
@@ -78,7 +78,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
               </p>
               <Link
                 to={item.link}
-                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer"
+                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer hover:underline hover:decoration-[#017B64] underline-offset-2"
               >
                 Read Full Story
               </Link>
@@ -87,7 +87,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
         </div>
         <div className="flex justify-center">
           <Link to="/blog">
-            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md">
+            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md hover:bg-green-100">
               See All Blogs
             </div>
           </Link>
@@ -161,7 +161,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
               </p>
               <Link
                 to={item.link}
-                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer"
+                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer "
               >
                 Read Full Story
               </Link>
@@ -171,7 +171,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
 
         <div className="flex justify-center">
           <Link to="/blog">
-            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md">
+            <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md hover:bg-green-100">
               See All Blogs
             </div>
           </Link>

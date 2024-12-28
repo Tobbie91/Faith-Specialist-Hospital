@@ -56,7 +56,7 @@ const Carousel = ({ items }) => {
               {/* Link */}
               <Link
                 to={item.link}
-                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer"
+                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer hover:underline hover:decoration-[#017B64] underline-offset-2"
               >
                 Read Full Story
               </Link>
@@ -95,7 +95,7 @@ const Carousel = ({ items }) => {
               {/* Link */}
               <Link
                 to={item.link}
-                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer"
+                className="mt-4 inline-block text-sm font-medium text-[#017B64] cursor-pointer hover:underline hover:decoration-[#017B64] underline-offset-2"
               >
                 Read Full Story
               </Link>
@@ -108,4 +108,3 @@ const Carousel = ({ items }) => {
 };
 
 export default Carousel;
-

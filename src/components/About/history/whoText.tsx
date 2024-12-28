@@ -5,10 +5,10 @@ const whoText = () => {
     <>
     <div className="hidden lg:block">
     <div className="w-full lg:flex lg:flex-col ">
-      <h1 className="lg:text-[39px] font-semibold whitespace-nowrap mb-2 mt-[1.5em]">
+      <h1 className="lg:text-[39px] font-medium whitespace-nowrap mb-2 mt-[1.5em]">
       Who Are We
       </h1>
-      <p className="text-[#444A5B] lg:text-[18px] mb-3">
+      <p className="text-[#444A5B] lg:text-[18px] mb-3 font-normal">
         Faith Specialist Hospital was established in 2010 as a private <br/>
         specialist hospital in Ota, Ogun State, to bridge the gap in <br/> providing
         quality yet affordable healthcare to the people of Ota <br/> and its environs.
@@ -18,7 +18,7 @@ const whoText = () => {
         to deliver a wide range <br/> of treatments, from routine check-ups to complex
         surgeries,<br/> ensuring that every patient receives the best possible care.
       </p>
-      <p className="text-[#444A5B] lg:text-[18px] mb-3">
+      <p className="text-[#444A5B] lg:text-[18px] mb-3 font-normal">
         Our team of dedicated healthcare professionals is led by Dr.<br/> Afolabi
         Odunsi, a renowned expert in orthopedic surgery. At Faith <br/>Specialist
         Hospital, we believe in a holistic approach to <br/>healthcare, addressing
