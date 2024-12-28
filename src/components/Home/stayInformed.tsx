@@ -29,7 +29,7 @@ const Informed = () => {
           <div className="hidden lg:grid grid-cols-2 lg:gap-[21px] xl:gap-[60px] lg:items-start mb-[4em]  ">
             <div className="flex flex-col justify-start pl-[1em] mt-[4em]">
               <StaticImage
-                src="../../images/InformedImage.webp"
+                src="../../images/Informedimage.webp"
                 alt="Hero Background"
                 layout="fullWidth"
                 className="object-cover w-full h-[60vh] mb-4 rounded-lg"
@@ -59,7 +59,7 @@ const Informed = () => {
               <div className="mt-5 space-y-5">
                 <div className="flex gap-[26px]">
                   <StaticImage
-                    src="../../images/InformedImage1.webp"
+                    src="../../images/Informedimage1.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-[217px] h-[177px] mb-4 rounded-lg"
@@ -83,7 +83,7 @@ const Informed = () => {
                 </div>
                 <div className="flex gap-[26px]">
                   <StaticImage
-                    src="../../images/InformedImage2.webp"
+                    src="../../images/Informedimage2.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-[217px] h-[177px] mb-4 rounded-lg"
@@ -105,7 +105,7 @@ const Informed = () => {
                 </div>
                 <div className="flex gap-[26px]">
                   <StaticImage
-                    src="../../images/InformedImage3.webp"
+                    src="../../images/Informedimage3.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-[217px] h-[177px] mb-4 rounded-lg"
