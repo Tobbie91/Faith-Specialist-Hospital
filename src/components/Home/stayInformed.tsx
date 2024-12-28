@@ -144,7 +144,7 @@ const Informed = () => {
           <div className=" ">
             <div className="flex flex-col justify-start mt-[3em]">
               <StaticImage
-                src="../../images/InformedImage.webp"
+                src="../../images/Informedimage.webp"
                 alt="Hero Background"
                 layout="fullWidth"
                 className="object-cover w-full h-[25vh] mb-4 rounded-lg"
@@ -174,7 +174,7 @@ const Informed = () => {
               <div className="mt-5 space-y-5">
                 <div className="flex flex-col">
                   <StaticImage
-                    src="../../images/InformedImage1.webp"
+                    src="../../images/Informedimage1.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-full  h-[25vh] mb-4 rounded-lg"
@@ -196,7 +196,7 @@ const Informed = () => {
                 </div>
                 <div className="flex flex-col">
                   <StaticImage
-                    src="../../images/InformedImage2.webp"
+                    src="../../images/Informedimage2.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-full  h-[25vh]  mb-4 rounded-lg"
@@ -218,7 +218,7 @@ const Informed = () => {
                 </div>
                 <div className="flex flex-col">
                   <StaticImage
-                    src="../../images/InformedImage3.webp"
+                    src="../../images/Informedimage3.webp"
                     alt="Hero Background"
                     layout="fullWidth"
                     className="object-cover w-full  h-[25vh]  mb-4 rounded-lg"
