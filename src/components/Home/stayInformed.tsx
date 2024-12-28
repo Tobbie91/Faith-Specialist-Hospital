@@ -55,7 +55,7 @@ const Informed = () => {
                 improve your quality of life.
               </p>
             </div>
-            <div className="mt-[3em] ">
+            <div className="mt-[3em] p-[]">
               <div className="mt-5 space-y-5">
                 <div className="flex gap-[26px]">
                   <StaticImage
@@ -190,6 +190,7 @@ const Informed = () => {
                     </div>
                     <p className="text-[23px] font-semibold mt-[2em]">
                       The Importance of Pediatric <br /> Orthopedic Care
+
                     </p>
                   </div>
                 </div>
