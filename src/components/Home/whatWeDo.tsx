@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import LearnMore from "../common/LearnMore";
 import { whatweDo2Views, whatweDoViews } from "../constants";
@@ -44,11 +45,13 @@ const WhatWeDo = () => {
           ))}
         </div>
         <div className="flex justify-center mb-4">
+          <Link to="/services">
           <LearnMore
             className="w-[330px] h-[56px] mt-8 border border-[#017B64] hover:bg-green-100 text-[#017B64]  text-[18px] font-medium"
             text="Learn More"
             path={path}
           />
+          </Link>
         </div>
       </div>
 
