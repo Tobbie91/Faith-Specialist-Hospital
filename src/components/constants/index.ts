@@ -1,14 +1,15 @@
 import React from 'react'
-import Do1 from "../../images/Do1.webp";
-import Do2 from "../../images/Do2.webp";
-import Do3 from "../../images/Do3.webp";
-import Do4 from "../../images/Do4.webp";
+import Do1 from "../../images/Do1.png";
+import Do2 from "../../images/Do2.png";
+import Do3 from "../../images/Do3.png";
+import Do4 from "../../images/Do4.png";
 import Do5 from "../../images/Do5.webp";
-import Do6 from "../../images/Do6.webp";
+import Do6 from "../../images/Do6.png";
 import Test1 from "../../images/Test1.webp";
 import Test2 from "../../images/Test2.webp";
 import stories3 from "../../images/story.png";
 import stories4 from "../../images/story.png";
+
 
 
 
@@ -112,6 +113,7 @@ export const navLinks: NavLink[] = [
         "Deformity Correction and\nPediatric Orthopedic Services",
       img: {   
         url: Do1,
+          //  url: "../../assets/icons/svg/Vector.svg",
         alt: "do1",
       },
     },
@@ -120,6 +122,7 @@ export const navLinks: NavLink[] = [
       copies: "Management of Fracture and Complication of Fractures",
       img: {
         url: Do2,
+        // url: "../../assets/icons/svg/Vector.svg",
         alt: "do2",
       },
     },
@@ -128,7 +131,7 @@ export const navLinks: NavLink[] = [
       copies:
         "General Surgery and Plastic Surgical Services",
       img: {
-        url: Do4,
+        url: Do3,
         alt: "do3s",
       },
     },
@@ -150,7 +153,7 @@ export const navLinks: NavLink[] = [
       copies:
         "Medical Imaging, Physiotherapy and Medical Rehabilitation",
       img: {
-        url: Do4,
+        url: Do3,
         alt: "do4",
       },
     },

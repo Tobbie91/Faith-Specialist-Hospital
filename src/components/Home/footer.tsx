@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <>
     {/* Desktop */}
-    <div className="bg-[#22252E] hidden lg:block">
-      <div className="grid grid-cols-3 px-[4em] bg-[#22252E]">
+    <div className="bg-[#22252E] hidden lg:block ">
+      <div className="grid grid-cols-3 px-[4em] bg-[#22252E] lg:pt-[2em]">
         <div className="flex flex-col pt-[2em] mb-8 font-medium">
           <FaithIcon />
           <p className="lg:text-[16px] text-[white] mb-4 mt-8 ">
@@ -72,7 +72,7 @@ const Footer = () => {
      {/* Mobile */}
      <div className="bg-[#22252E] lg:hidden">
       <div className=" px-[1em] bg-[#22252E]">
-        <div className="flex flex-col pt-[2em] mb-8">
+        <div className="flex flex-col pt-[2em] mb-8 mt-[1em]">
           <FaithIcon />
           <p className="lg:text-[16px] text-[white] mb-4 mt-8">
             Address: Plot 5 Block 2, Ogun State <br /> housing estate, off

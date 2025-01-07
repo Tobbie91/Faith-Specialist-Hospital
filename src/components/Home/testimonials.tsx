@@ -1,12 +1,21 @@
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { LeftSlide } from "../../assets/icons/leftSlide";
 import { RightSlide } from "../../assets/icons/RightSlide";
 import { testimonials } from "../constants";
 
 const TestimonialCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+    }, 5000); // 5000ms = 5 seconds
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(interval);
+  }, []);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
@@ -77,7 +86,7 @@ const TestimonialCarousel = () => {
           </div>
 
           {/* Indicators */}
-          <div className="flex space-x-2 mt-4">
+          <div className="flex space-x-2 mt-8">
             {testimonials.map((_, index) => (
               <span
                 key={index}
@@ -129,7 +138,7 @@ const TestimonialCarousel = () => {
         </div>
 
         {/* Indicators */}
-        <div className="flex space-x-2 mt-4">
+        <div className="flex space-x-2 mt-[2em]">
           {testimonials.map((_, index) => (
             <span
               key={index}

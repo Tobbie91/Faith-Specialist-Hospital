@@ -10,7 +10,7 @@ const BackgroundSection = ({ children, padding = 'p-8' }) => {
           src="../../images/PatientStories.webp"
           alt="Hero Background"
           layout="fullWidth"
-          className="object-cover w-full h-[130vh] lg:h-[120vh]"
+          className="object-cover w-full h-[120vh] lg:h-[110vh]"
         />
       </div>
       

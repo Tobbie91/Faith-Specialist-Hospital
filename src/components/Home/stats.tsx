@@ -40,7 +40,7 @@ const StatsSection = () => {
                   {stat.value}
                 </h3>
                 <p
-                  className="text-gray-600 mt-2 lg:text-[20px] font-normal leading-normal"
+                  className="text-gray-600 mt-2 lg:text-[20px] font-light leading-normal"
                   dangerouslySetInnerHTML={{ __html: stat.description }}
                 />
               </div>
@@ -60,7 +60,7 @@ const StatsSection = () => {
                 {stat.value}
               </h3>
               <p
-                className="text-gray-600 mt-2 text-[16px] font-normal whitespace-nowrap"
+                className="text-gray-600 mt-2 text-[16px] font-light whitespace-nowrap"
                 dangerouslySetInnerHTML={{ __html: stat.description }}
               />
             </div>

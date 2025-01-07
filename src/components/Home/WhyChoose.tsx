@@ -44,7 +44,7 @@ const WhyChoose = () => {
   return (
     <>
       <div className="bg-white mt-[4em]">
-        <div className="px-[4.1%] pt-10 pb-[13px] lg:pt-0 lg:pb-[45px] fellix max-w-screen-xxl xxl:mx-auto">
+        <div className="px-[4.1%] pt-10 pb-[13px] lg:pt-8 lg:pb-[45px] fellix max-w-screen-xxl xxl:mx-auto">
           {/* Desktop */}
           <div className="hidden md:grid lg:grid grid-cols-2 lg:gap-[21px] md:gap-[38px] xl:gap-[60px] lg:items-start">
             <div

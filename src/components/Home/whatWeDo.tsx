@@ -12,7 +12,7 @@ const WhatWeDo = () => {
         <h1 className="flex justify-center lg:text-[39px] font-medium mb-[1.4em]">
           What We Do
         </h1>
-        <div className="flex justify-center gap-4 xl:gap-8 mb-[3em]">
+        <div className="flex justify-center gap-4 xl:gap-16 mb-[4.6em]">
           {whatweDoViews.map((view, i) => (
             <div
               className={`${
@@ -28,7 +28,7 @@ const WhatWeDo = () => {
             </div>
           ))}
         </div>
-        <div className="lg:flex lg:justify-center gap-4 xl:gap-8 hidden mb-4">
+        <div className="lg:flex lg:justify-center gap-4 xl:gap-16 hidden mb-8 ">
           {whatweDo2Views.map((view, i) => (
             <div
               className={`${
@@ -44,7 +44,7 @@ const WhatWeDo = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mb-4 ">
           <Link to="/services">
           <LearnMore
             className="w-[330px] h-[56px] mt-8 border border-[#017B64] hover:bg-green-100 text-[#017B64]  text-[18px] font-medium"
@@ -92,7 +92,7 @@ const WhatWeDo = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mt-[1.5em]">
           <LearnMore
             className="w-[300px] h-[56px] mt-8 border border-[#017B64] hover:bg-[#F1F3F5] text-[#017B64] text-[18px] font-semibold "
             text="Learn more"

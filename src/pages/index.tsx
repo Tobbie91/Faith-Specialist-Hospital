@@ -21,7 +21,7 @@ const Home = () => {
       <WhatWeDo />
       <WhyChoose />
       <div>
-        <BackgroundSection padding="p-16">
+        <BackgroundSection padding="p-5">
           <TestimonialCarousel />
         </BackgroundSection>
       </div>
