@@ -143,7 +143,7 @@ const ServiceLinks5 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
+          <p className="mt-[2em] text-[#444A5B] lg:text-[15px] font-light">
             Faith Specialist Hospital is equipped with advanced medical imaging
             technology to facilitate accurate diagnosis and treatment planning.
             Our physiotherapy and medical rehabilitation services play a crucial
@@ -156,10 +156,10 @@ const ServiceLinks5 = () => {
           <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
             Medical Imaging Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               MRI (Magnetic Resonance Imaging):{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We partner with outfits that provide MRI services. They provide
                 detailed images of soft tissues, organs, and structures within
                 the body. MRI is particularly useful for diagnosing conditions
@@ -169,10 +169,10 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               X-rays:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 X-rays are a fundamental diagnostic tool for evaluating bone
                 injuries, fractures, and joint conditions. Our digital X-ray
                 equipment provides clear and precise images, aiding in the
@@ -181,7 +181,7 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Fluoroscopy:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -193,13 +193,13 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Physiotherapy Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Physical Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our physical therapy services focus on restoring movement,
                 strength, and function following injury, surgery, or illness. We
                 create individualized treatment plans that include exercises,
@@ -208,10 +208,10 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Occupational Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Occupational therapy helps patients regain the ability to
                 perform daily activities and achieve independence. Our
                 occupational therapists work with patients to develop customized
@@ -220,10 +220,10 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Neurological Rehabilitation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our neurological rehabilitation services cater to patients with
                 conditions such as stroke, traumatic brain injury, and spinal
                 cord injury. We provide comprehensive therapy to improve motor
@@ -232,10 +232,10 @@ const ServiceLinks5 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Pediatric Rehabilitation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We offer pediatric rehabilitation services for children with
                 developmental delays, congenital conditions, and injuries. Our
                 therapists use child-friendly techniques to promote physical

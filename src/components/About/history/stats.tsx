@@ -27,7 +27,7 @@ const StatsSection = () => {
                   {stat.value}
                 </h3>
                 <p
-                  className="text-gray-600 mt-2 lg:text-[20px] font-normal"
+                  className="text-gray-600 mt-2 lg:text-[20px] font-light"
                   dangerouslySetInnerHTML={{ __html: stat.description }} // Use this to render HTML
                 />
               </div>

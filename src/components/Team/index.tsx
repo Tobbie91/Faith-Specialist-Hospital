@@ -53,7 +53,7 @@ const TeamComponent = () => {
         </div>
         </div>
       </div>
-      <div className="flex flex-col px-[8em] mt-[3em]">
+      <div className="flex flex-col px-[8em] mt-[5em]">
         <StaticImage
           src="../../images/team2.webp"
           alt="Hero Image 1"
@@ -68,7 +68,7 @@ const TeamComponent = () => {
           seamless, patient-centered care.
         </p>
       </div>
-      <div className="flex flex-col mt-[3em] px-[8em] mb-[3em]">
+      <div className="flex flex-col mt-[5em] px-[8em] mb-[3em]">
         <StaticImage
           src="../../images/team3.webp"
           alt="Hero Image 1"
@@ -77,7 +77,7 @@ const TeamComponent = () => {
         />
         <p className="font-semibold lg:text-[17px] mt-[1em] mb-4">Administrative and Support Staff</p>
         <p className="lg:text-[14px] font-normal text-[#666F89]">
-          ehind the scenes, our administrative and support staff ensure the
+          Behind the scenes, our administrative and support staff ensure the
           smooth operation of our hospital. From scheduling appointments to
           managing patient records, they are dedicated to providing a positive
           and efficient experience for every patient. Their commitment to

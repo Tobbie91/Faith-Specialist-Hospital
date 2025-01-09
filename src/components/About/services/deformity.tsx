@@ -38,7 +38,7 @@ const ServiceLinks = () => {
     return (
       <Link
         to={route}
-        className={`flex gap-6 border border-[#C3C6D2] rounded-md lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
+        className={`flex gap-6 border border-[#C3C6D2] rounded-lg lg:w-[400px] w-[100%] lg:py-5 py-2 mb-6 ${
           activeLink === linkId ? "text-transparent" : "text-black"
         }`}
         onClick={() => handleLinkClick(linkId)}
@@ -63,7 +63,7 @@ const ServiceLinks = () => {
           <IconComponent isActive={isActive} />
         </span>
         <p
-          className={`lg:text-[15px] rounded-md ${
+          className={`lg:text-[15px] rounded-lg ${
             activeLink === linkId ? "bg-clip-text text-transparent" : ""
           }`}
           style={
@@ -146,7 +146,7 @@ const ServiceLinks = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+          <p className="mt-[3em] text-[#444A5B] lg:text-[14px] font-light">
             At Faith Specialist Hospital, we specialize in orthopedic care,
             including the correction of deformities and comprehensive pediatric
             orthopedic services. Our dedicated team of orthopedic surgeons is
@@ -155,13 +155,13 @@ const ServiceLinks = () => {
             is to provide personalized care that enhances mobility and improves
             the quality of life for our patients.
           </p>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Deformity Correction
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Congenital Deformities:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We treat congenital deformities such as clubfoot, congenital hip
                 dysplasia, and limb length discrepancies. Our specialists use a
                 combination of surgical and non-surgical methods to correct
@@ -170,7 +170,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Acquired Deformities:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -181,7 +181,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Minimally Invasive Techniques:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-normal">
@@ -192,10 +192,10 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Pediatric Orthopedic Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Fracture Care:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -206,7 +206,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Scoliosis and Spinal Disorders:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -217,7 +217,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Sports Injuries:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -228,7 +228,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Developmental Disorders:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -239,7 +239,7 @@ const ServiceLinks = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Growth Plate Injuries:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">

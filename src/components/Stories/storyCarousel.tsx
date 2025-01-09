@@ -46,11 +46,11 @@ const Carousel = ({ items }) => {
               )}
 
               {/* Title */}
-              <h3 className="mt-4 text-lg font-bold text-gray-800  w-[350px]">
+              <h3 className="mt-4 text-lg font-semibold text-gray-800  w-[350px]">
                 {item.title}
               </h3>
               {/* Description */}
-              <p className="mt-2 text-sm text-gray-600 line-clamp-3 w-[350px]">
+              <p className="mt-2 text-sm text-gray-600 line-clamp-3 w-[350px] font-light">
                 {item.description}
               </p>
               {/* Link */}

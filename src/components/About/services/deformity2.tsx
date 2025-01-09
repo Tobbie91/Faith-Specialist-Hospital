@@ -143,7 +143,7 @@ const ServiceLinks2 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
+          <p className="mt-[2em] text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we specialize in a wide range of
             orthopedic and plastic surgical procedures, focusing on restoring
             function, mobility, and aesthetics. Our team of skilled surgeons
@@ -152,13 +152,13 @@ const ServiceLinks2 = () => {
             comprehensive care that addresses both the functional and cosmetic
             aspects of orthopedic conditions and injuries.
           </p>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Orthopedic Surgery Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Joint Replacement Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We perform total and partial joint replacement surgeries,
                 including hip, knee, and shoulder replacements. Our advanced
                 techniques and prosthetic options ensure improved mobility and
@@ -166,7 +166,7 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Spine Surgery:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -177,10 +177,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Arthroscopic Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We offer arthroscopic procedures for the diagnosis and treatment
                 of joint issues such as ligament tears, cartilage damage, and
                 joint instability. These minimally invasive surgeries involve
@@ -189,10 +189,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Plastic Surgical Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Reconstructive Surgery:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -203,10 +203,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Hand Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px]">
                 Our plastic and orthopedic surgeons collaborate to provide
                 comprehensive hand surgery services. We treat conditions such as
                 carpal tunnel syndrome, tendon injuries, fractures, and
@@ -215,10 +215,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Limb Salvage and Reconstruction:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 For patients with severe limb injuries or tumors, we offer limb
                 salvage surgeries and reconstruction. Our multidisciplinary team
                 works together to preserve as much function and appearance as
@@ -226,10 +226,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Scar Revision and Soft Tissue Repair:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Post-surgical and post-traumatic scars can be addressed through
                 our scar revision services. We use a variety of techniques to
                 improve the appearance of scars, enhance skin texture, and
@@ -237,10 +237,10 @@ const ServiceLinks2 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Microsurgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We utilize advanced microsurgical techniques for complex
                 reconstructive procedures, such as free tissue transfer and
                 nerve repair. These techniques allow for precise and effective

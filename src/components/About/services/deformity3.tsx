@@ -142,7 +142,7 @@ const ServiceLinks3 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
+          <p className="mt-[2em] text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we provide comprehensive management of
             fractures and their complications. Our skilled orthopedic team
             employs advanced techniques to diagnose and treat fractures promptly
@@ -151,13 +151,13 @@ const ServiceLinks3 = () => {
             rehabilitation, restoring function and preventing long-term
             complications.
           </p>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Full Laboratory Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Advanced Diagnostic Testing:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our laboratory is outfitted with the latest technology, allowing
                 us to perform a comprehensive array of diagnostic tests. From
                 routine blood work to specialized tests, our services provide
@@ -166,20 +166,20 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Hematology and Coagulation:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our hematology services include complete blood counts (CBC),
                 coagulation studies, and other blood tests to diagnose and
                 manage blood disorders and clotting conditions.
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Immunology and Serology:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our immunology and serology tests are designed to detect and
                 monitor immune system disorders, infections, and autoimmune
                 diseases, providing essential information to guide treatment
@@ -187,13 +187,13 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             General Medical Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Preventive Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We focus on preventive healthcare to maintain overall health and
                 well-being. Our services include routine check-ups,
                 vaccinations, screening tests, and lifestyle counseling to help
@@ -201,10 +201,10 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Chronic Disease Management:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our team provides comprehensive management for chronic
                 conditions like diabetes, hypertension, heart disease, and
                 asthma. We offer personalized treatment plans, medication
@@ -214,10 +214,10 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Comprehensive Health Assessments:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We offer detailed health assessments to evaluate overall health
                 status, identify risk factors, and create personalized health
                 plans. These assessments include physical examinations,
@@ -225,10 +225,10 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Women's Health Services:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px]">
                 Our women's health services cover a range of needs, including
                 gynecological exams, family planning, prenatal and postnatal
                 care, and menopause management. We offer compassionate care
@@ -236,20 +236,20 @@ const ServiceLinks3 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Men's Health Services:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We address the specific health needs of men through services
                 such as prostate exams, testosterone evaluations, cardiovascular
                 screenings, and preventive care.
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Pediatric Care::{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our pediatric services ensure the health and well-being of
                 children from infancy through adolescence. We provide routine
                 check-ups, immunizations, growth and development assessments,

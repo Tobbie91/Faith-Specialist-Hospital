@@ -49,9 +49,9 @@ const ContactUs = () => {
           <div>
             <h3 className="lg:text-[26px] font-semibold">Send Us a Message</h3>
             <p className="font-normal lg:text-[18px] text-[#666F89]">
-              Please fill out this form and our team will respond shortly.
+              Please fill out this form and our team will respond shortly. We value your feedback so send us your questions, comments, suggestions, and opinions.
             </p>
-            <p className="mt-[2em]">Call Us On</p>
+            <p className="mt-[3em] mb-[1em]">Call Us On</p>
             <p className="lg:text-[14px] text-[#666F89] mb-[1em]">0804637376747</p>
             <p className="lg:text-[14px] text-[#666F89]">080884848477</p>
             <p className="mt-[2em] mb-[1em]">Email Us At</p>
@@ -118,12 +118,12 @@ const ContactUs = () => {
                 </div>
               </div>
 
-              <div className="mb-4 px-[2em]">
+              <div className="mb-4 px-[2em] mt-[1em]">
                 <label
                   htmlFor="email"
                   className="block text-sm font-medium text-gray-700"
                 >
-                  Email
+                  Email Address
                 </label>
                 <input
                   type="email"
@@ -137,10 +137,10 @@ const ContactUs = () => {
                 />
               </div>
 
-              <div className="mb-4 px-[2em]">
+              <div className="mb-4 px-[2em] ">
                 <label
                   htmlFor="phone"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mt-[1em]"
                 >
                   Phone Number
                 </label>
@@ -159,7 +159,7 @@ const ContactUs = () => {
               <div className="mb-4 px-[2em]">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 mt-[1em]"
                 >
                   Your Message
                 </label>
@@ -176,7 +176,7 @@ const ContactUs = () => {
               <div className="flex justify-end pr-[3em]">
                 <button
                   type="submit"
-                  className="bg-[#017B64] text-white px-10 py-2 rounded-sm shadow hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 mb-7"
+                  className="bg-[#017B64] hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)] text-white px-10 py-3 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 mb-7"
                 >
                   Submit
                 </button>

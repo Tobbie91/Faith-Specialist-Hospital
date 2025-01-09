@@ -144,7 +144,7 @@ const ServiceLinks1 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
+          <p className="mt-[2em] text-[#444A5B] lg:text-[15px] font-light">
             At Faith Specialist Hospital, we provide comprehensive management of
             fractures and their complications. Our skilled orthopedic team
             employs advanced techniques to diagnose and treat fractures promptly
@@ -153,10 +153,10 @@ const ServiceLinks1 = () => {
             rehabilitation, restoring function and preventing long-term
             complications.
           </p>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Comprehensive Fracture Management
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Initial Assessment and Diagnosis:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -167,7 +167,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Non-Surgical Treatment:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px]">
@@ -178,7 +178,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Surgical Intervention:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -190,7 +190,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
             Reduction Techniques:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -201,7 +201,7 @@ const ServiceLinks1 = () => {
           <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
           Management of Fracture Complications
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
             Delayed Union and Non-Union: {" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -209,7 +209,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
             Malunion:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -217,7 +217,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
             Infection:{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
@@ -225,7 +225,7 @@ const ServiceLinks1 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
             Complex Regional Pain Syndrome (CRPS):{" "}
               <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">

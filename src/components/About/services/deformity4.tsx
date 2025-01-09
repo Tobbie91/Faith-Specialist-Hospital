@@ -143,7 +143,7 @@ const ServiceLinks4 = () => {
             />
           </div>
 
-          <p className="mt-4 text-[#444A5B] lg:text-[15px] font-light">
+          <p className="mt-[2em] text-[#444A5B] lg:text-[15px] font-light">
             We are fully equipped to handle emergency cases, including the
             management of accident victims and multiple injured patients. Our
             comprehensive emergency services ensure rapid stabilization,
@@ -152,13 +152,13 @@ const ServiceLinks4 = () => {
             partnership services to provide swift transportation and emergency
             medical care when every second counts.
           </p>
-          <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
+          <h3 className="font-semibold lg:text-[26px] mt-[2em] mb-4">
             Management of Accident Victims
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               24/7 Emergency Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our emergency department operates around the clock, staffed by
                 highly trained emergency physicians, nurses, and support staff.
                 We are prepared to handle all types of accident-related
@@ -168,10 +168,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Rapid Stabilization:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Upon arrival, accident victims receive immediate medical
                 attention. Our priority is to stabilize patients quickly,
                 addressing life-threatening conditions and managing pain. We
@@ -182,10 +182,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Trauma Surgery:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our team includes experienced trauma surgeons who specialize in
                 surgical interventions for accident-related injuries. Whether
                 it's emergency surgery to control bleeding, repair fractures, or
@@ -196,10 +196,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Orthopedic Trauma Care:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px]">
                 We provide specialized orthopedic trauma care for fractures,
                 dislocations, and other musculoskeletal injuries resulting from
                 accidents. Our orthopedic surgeons (led by the MD himself) use
@@ -208,10 +208,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Neurological and Spinal Injury Management:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 For patients with head, neck, or spinal injuries, our
                 neurosurgeons and spine specialists offer expert care. We
                 provide both surgical and non-surgical treatments to address
@@ -220,10 +220,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Rehabilitation and Physical Therapy:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Post-acute care is critical for recovery. Our rehabilitation
                 services include physical therapy, occupational therapy, and
                 pain management programs designed to help accident victims
@@ -234,10 +234,10 @@ const ServiceLinks4 = () => {
           <h3 className="font-semibold lg:text-[26px] mt-4 mb-4">
             Ambulance Services
           </h3>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Emergency Response:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our ambulance service partnerships are designed for rapid
                 response to emergency situations. We are in partnerships with a
                 fleet of providers with well-equipped ambulances staffed by
@@ -246,10 +246,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Advanced Life Support (ALS):{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px]">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px]">
                 These ambulances are equipped with advanced life support
                 systems, including cardiac monitors, defibrillators,
                 ventilators, and intravenous (IV) therapy equipment. This
@@ -258,10 +258,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Trauma Care in Transit:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 Our paramedics are skilled in providing trauma care, including
                 wound management, fracture stabilization, and pain relief. They
                 are trained to perform life-saving procedures such as CPR, and
@@ -269,10 +269,10 @@ const ServiceLinks4 = () => {
               </span>
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-[2em]">
             <p className="font-semibold lg:text-[14px]">
               Inter-Hospital Transfers:{" "}
-              <span className="mt-4 text-[#444A5B] lg:text-[14px] font-light">
+              <span className="mt-[2em] text-[#444A5B] lg:text-[14px] font-light">
                 We also offer inter-hospital transfer services for patients who
                 require specialized care not available at the initial treatment
                 facility. Our ambulances are equipped to ensure safe and
