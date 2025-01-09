@@ -25,7 +25,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Initial Struggles
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
+          <p className="text-[16px] px-[em] text-[#444A5B] mt-4 font-light">
             Daniel’s parents tried everything within their reach. They visited
             multiple hospitals, hoping for a solution to their son’s condition.
             But each visit ended in disappointment, with no clear path to
@@ -38,7 +38,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Diagnosis and Treatment Plan
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
+          <p className="text-[16px] px-[em] text-[#444A5B] mt-4 font-light">
             At Faith Specialist Hospital, Daniel’s family found not just hope
             but a clear plan. During their first consultation, the orthopedic
             team, led by the Medical Director, carefully assessed Daniel’s
@@ -52,7 +52,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             Transformation and Outcome
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
+          <p className="text-[16px] px-[em] text-[#444A5B] mt-4 font-light">
             The day of surgery marked a turning point for Daniel. The hospital’s
             skilled surgeons employed advanced techniques to realign his legs.
             The procedure was a success, but the journey was far from over.
@@ -66,7 +66,7 @@ const DanielsStruggle = () => {
           <h3 className="font-semibold text-[23px] mt-7 text-left">
             The Transformation
           </h3>
-          <p className="text-[16px] font-normal px-[em] text-[#444A5B] mt-4 font-light">
+          <p className="text-[16px] px-[em] text-[#444A5B] mt-4 font-light">
             Three months later, the results were astonishing. Daniel’s legs were
             straight, his gait was steady, and his once-shy demeanor was
             replaced by a beaming smile. For the first time, Daniel could run,
@@ -231,7 +231,7 @@ const DanielsStruggle = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[178em] lg:hidden md:hidden">
+      <div className="mt-[188em] lg:hidden md:hidden">
         <p className="text-[33px] font-semibold px-[1em]">
           More Patient Stories
         </p>

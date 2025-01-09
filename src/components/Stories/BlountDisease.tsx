@@ -240,7 +240,7 @@ const BlountDisease = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[178em] lg:hidden md:hidden">
+      <div className="mt-[188em] lg:hidden md:hidden">
         <p className="text-[33px] font-semibold px-[1em]">
           More Patient Stories
         </p>
