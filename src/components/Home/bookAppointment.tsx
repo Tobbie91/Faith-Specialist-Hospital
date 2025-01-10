@@ -5,7 +5,7 @@ const BookAppointment = () => {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden lg:block">
+      <div className="hidden lg:block mt-[]">
         <div className="flex flex-col text-center justify-center items-center bg-[#F4F5F7] h-[304px]">
           <h1
             className="lg:text-[48px] text-center bg-clip-text text-transparent mt-[em] font-medium"

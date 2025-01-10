@@ -20,15 +20,15 @@ const HeroSection = () => {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden lg:block relative w-full h-[720px] overflow-hidden">
+      <div className="hidden lg:block relative w-full h-[720px] overflow-hidden z-1">
         <div
-          className="flex transition-transform duration-1000 ease-in-out"
+          className="flex transition-transform duration-1000 ease-in-out z-1"
           style={{
             transform: `translateX(-${currentIndex * 100}%)`,
             height: "100%",
           }}
         >
-          <div className="min-w-full h-full relative font-sans ">
+          <div className="min-w-full h-full relative font-sans z-1">
             <StaticImage
               src="../../images/HeroImages2.png"
               alt="Hero Image 1"

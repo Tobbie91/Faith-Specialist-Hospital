@@ -110,12 +110,12 @@ const Footer = () => {
           </p>
           <input
   type="email"
-  className="rounded-sm w-[320px] h-[48px] mb-4 p-4 placeholder-gray-500"
+  className="rounded-sm w-[300px] h-[48px] mb-4 p-4 placeholder-gray-500"
   placeholder="Your email..."
 />
 
           <button
-            className="bg-[#017B64] text-white w-[320px] h-[48px] rounded-sm mb-8 hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)]">
+            className="bg-[#017B64] text-white w-[300px] h-[48px] rounded-sm mb-8 hover:bg-[linear-gradient(292.99deg,#0BBE95_-1.96%,#EE1433_100%)]">
             Subscribe
           </button>
         </div>
