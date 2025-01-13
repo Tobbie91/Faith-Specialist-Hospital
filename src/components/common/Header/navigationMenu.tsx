@@ -105,7 +105,7 @@ return (
 
             {activeIndex == i && showToggle ? (
               <div
-                className={`absolute top-8 -left-90 flex justify-center w-[450px] z-90`}
+                className={`absolute top-8 -left-0 flex justify-center w-[350px] z-90`}
                 ref={dropDownRef}
                 onMouseOver={
                   handleOnMouseOverOutside as unknown as React.MouseEventHandler<HTMLDivElement>

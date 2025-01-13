@@ -113,7 +113,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("Orthopedic Care")}
             className={`px-4 py-2 rounded ${
               filter === "Orthopedic Care"
-                ? "bg-green-500 text-white"
+                ? "bg-[#017B64]  text-white"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -123,7 +123,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             onClick={() => setFilter("Surgical Procedures")}
             className={`px-4 py-2 rounded ${
               filter === "Surgical Procedures"
-                ? "bg-green-500 text-white"
+                ? "bg-[#017B64]  text-white"
                 : "bg-gray-200 text-[#666F89]"
             }`}
           >
@@ -150,7 +150,7 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
                   className="w-full h-[200px] object-cover rounded-md"
                 />
               )}
-              <div className="border border-gray-300 rounded-full px-2 py-1 mt-2 w-[170px]">
+              <div className="border border-gray-300 rounded-full px-2 py-1 mt-2 w-[190px]">
                 <p>{item.group}</p>
               </div>
               <h3 className="mt-4 text-lg font-bold text-gray-800">

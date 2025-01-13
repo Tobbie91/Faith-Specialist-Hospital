@@ -190,16 +190,16 @@ const ContactUs = () => {
       <div className="lg:hidden">
         <div className="flex flex-col px-[1em] mt-[2em]">
           <div>
-            <h3 className="text-[28px] whitespace-nowrap font-semibold">
+            <h3 className="text-[24px] whitespace-nowrap font-semibold">
               Send Us a Message
             </h3>
-            <p className="font-normal text-[20px] text-[#666F89]">
+            <p className="font-normal text-[18px] text-[#666F89]">
               Please fill out this form and our team will respond shortly. We
               value your feedback so send us your questions, comments,
               suggestions, and opinions.
             </p>
            
-              <form         onSubmit={handleSubmit} className=" mx-auto  bg-white border border-gray-300 rounded-lg ">
+              <form         onSubmit={handleSubmit} className=" mx-auto  bg-white border  mt-[3em] border-gray-300 rounded-lg ">
       <div className="flex flex-col mb-4 px-[2em] mt-[2em]">
         <div className="flex-1">
           <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">

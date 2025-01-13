@@ -131,7 +131,7 @@ const Informed = () => {
       </div>
 
       {/* Mobile */}
-      <div className="bg-white mt-[-2em] mb-[2em] lg:hidden">
+      <div className="bg-white mt-[-1em] mb-[2em] lg:hidden">
         <div className="px-[4.1%] pt-[2em] pb-[13px]  ">
           <div className="pl-4 mt-[2em]">
             <h1 className="text-[34px] font-semibold mt-[2em]">

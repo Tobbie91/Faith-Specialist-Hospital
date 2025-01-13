@@ -81,9 +81,9 @@ const DanielsStruggle = () => {
               Before Surgery
             </p>
             <StaticImage
-              src="../../images/stories4.webp"
+              src="../../images/Daniel2.png"
               alt="LinkedIn"
-              className="w-[]"
+              className="w-[400px] h-[400px]"
             />
           </div>
           <div>
@@ -91,9 +91,9 @@ const DanielsStruggle = () => {
               Three Months After Surgery
             </p>
             <StaticImage
-              src="../../images/stories5.webp"
+              src="../../images/Daniel.png"
               alt="LinkedIn"
-              className="w-[]"
+              className="w-[400px] h-[400px]"
             />
           </div>
         </div>
@@ -115,7 +115,7 @@ const DanielsStruggle = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[120em] hidden md:block">
+      <div className="mt-[110em] hidden md:block">
         <p className="text-[33px] font-semibold px-[5em] hidden lg:block md:block">
           More Patient Stories
         </p>
@@ -197,7 +197,7 @@ const DanielsStruggle = () => {
               Before Surgery
             </p>
             <StaticImage
-              src="../../images/stories4.webp"
+              src="../../images/Daniel2.png"
               alt="LinkedIn"
               className="w-[] mt-2"
             />
@@ -207,7 +207,7 @@ const DanielsStruggle = () => {
               Three Months After Surgery
             </p>
             <StaticImage
-              src="../../images/stories5.webp"
+              src="../../images/Daniel.png"
               alt="LinkedIn"
               className="w-[] mt-2"
             />
@@ -231,7 +231,7 @@ const DanielsStruggle = () => {
           </p>
         </div>
       </div>
-      <div className="mt-[188em] lg:hidden md:hidden">
+      <div className="mt-[178em] lg:hidden md:hidden">
         <p className="text-[33px] font-semibold px-[1em]">
           More Patient Stories
         </p>

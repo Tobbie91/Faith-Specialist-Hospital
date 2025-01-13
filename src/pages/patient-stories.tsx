@@ -18,7 +18,7 @@ const Patient = () => {
       <Header backGround="bg-white" />
       <StoryHero/>
     <StoriesLink/> 
-    <div className="mt-[6em] items-start ml-[-14em] flex justify-start">   
+    <div className="mt-[6em] items-start lg:ml-[-14em] flex justify-start l">   
        <Carousel items={stories2} />
     </div>   
 

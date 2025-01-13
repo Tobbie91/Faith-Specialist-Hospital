@@ -85,8 +85,8 @@ export const navLinks: NavLink[] = [
     {
       id: "/#stories",
       title: "Patient Stories",
-      to: "/stories",
-      titleTo: "/stories/",
+      to: "/patient-stories",
+      titleTo: "/patient-stories",
       showToggle: false,
     },
     {

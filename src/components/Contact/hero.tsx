@@ -13,7 +13,7 @@ const Hero = () => {
     </div>
 
 {/* mobile */}
-    <div className="bg-hero-gradient pt-[7em] text-center text-white h-[300px] w-full flex justify-center lg:hidden">
+    <div className="bg-hero-gradient pt-[4em] text-center text-white h-[300px] w-full flex justify-center lg:hidden">
       <div className="items-center  w-[570px] mt-[1em]">
 <p className="text-[39px] font-semibold text-center mt-[1em]">Contact Us</p>
       </div>
