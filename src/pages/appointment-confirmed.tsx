@@ -10,7 +10,7 @@ import TestimonialCarousel from '../components/Home/testimonials'
 
 const Appointment = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white] ">
     <Header backGround="bg-white" />
     <AppointmentHero2/>
     <Steps/>

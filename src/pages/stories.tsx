@@ -8,7 +8,7 @@ import StoriesHero2 from "../components/Stories/storiesHer2";
 
 const Stories = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white]">
       <Header backGround="bg-white" />
       <StoriesHero2/>
       < DanielsStruggle/>

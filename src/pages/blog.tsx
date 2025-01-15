@@ -14,7 +14,7 @@ import Footer from "../components/Home/footer";
 
 const Blog = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white]">
       <Header backGround="bg-white" />
       <Hero/>
       <div className="mt-[2em]">

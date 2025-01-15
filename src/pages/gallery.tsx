@@ -8,7 +8,7 @@ import Footer from "../components/Home/footer";
 
 const Gallery = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white] ">
       <Header backGround="bg-white" />
       <Hero/>
       <Pictures/>

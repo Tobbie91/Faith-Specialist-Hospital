@@ -6,7 +6,7 @@ import TeamComponent from "../components/Team/index";
 
 const Team = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white] ">
       <Header backGround="bg-white" />
 <TeamComponent/>
 <BookAppointment />

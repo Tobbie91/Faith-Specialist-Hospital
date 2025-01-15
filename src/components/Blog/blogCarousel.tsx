@@ -85,13 +85,13 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Link to="/blog">
             <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md hover:bg-green-100">
               See All Blogs
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
 
       {/* mobile */}
@@ -169,13 +169,13 @@ const BlogCarousel = ({ items, filterBy = "all" }) => {
           ))}
         </div>
 
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Link to="/blog">
             <div className="flex w-[153px] h-[56px] text-[18px] border border-teal-700  text-teal-700 items-center  text-center font-semibold justify-center rounded-md hover:bg-green-100">
               See All Blogs
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

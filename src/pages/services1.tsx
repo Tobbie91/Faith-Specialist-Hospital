@@ -10,7 +10,7 @@ import ServiceLinks1 from "../components/About/services/deformity1";
 
 const Services1 = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white]">
       <Header backGround="bg-white" />
       <ServiceHero/>
       <ServiceLinks1/>

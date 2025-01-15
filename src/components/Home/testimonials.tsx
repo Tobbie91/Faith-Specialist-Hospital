@@ -72,7 +72,7 @@ const TestimonialCarousel = () => {
               <img
                 src={img.url}
                 alt={img.alt}
-                className=" w-[50%] h-auto rounded-lg"
+                className=" w-[50%] h-[500px] rounded-lg"
               />
             </div>
 

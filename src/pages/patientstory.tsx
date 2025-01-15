@@ -7,7 +7,7 @@ import BlountDisease from "../components/Stories/BlountDisease";
 
 const PatientStory = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white]">
       <Header backGround="bg-white" />
       <StoriesHero/>
       < BlountDisease/>     

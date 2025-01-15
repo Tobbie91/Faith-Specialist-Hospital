@@ -5,7 +5,7 @@ import ServiceSelection from '../components/serviceOpt'
 
 const ServiceOptions = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white] ">
 
 <ServiceSelection/>
     </div>

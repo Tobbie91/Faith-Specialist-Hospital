@@ -14,7 +14,7 @@ import StoryHero from "../components/Stories/storyHero";
 
 const Patient = () => {
   return (
-    <div className="bg-[white] overflow-hidden">
+    <div className="bg-[white] ">
       <Header backGround="bg-white" />
       <StoryHero/>
     <StoriesLink/> 
