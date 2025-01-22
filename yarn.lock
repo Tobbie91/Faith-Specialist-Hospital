@@ -7674,7 +7674,7 @@ gatsby-plugin-image@^3.13.1:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.8.1"
 
-gatsby-plugin-manifest@^5.13.0:
+gatsby-plugin-manifest@^5.14.0:
   version "5.14.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-5.14.0.tgz#c5e701af508c534102f27c2c52b4cb41a7599bc5"
   integrity sha512-ZJS+sCg8KIlXTEilInBt+kkPbGPOXX3wuRlOJiHwcou+uCmU/VZ4gif1DVazCseAbWtAdQxb3GkMlKTsGqtYiQ==
