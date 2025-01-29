@@ -242,7 +242,7 @@ const ServiceLinks1 = () => {
 
     <div className="mt-[4em] mb-[2em] lg:hidden md:hidden ">
     <div className="grid grid-cols-1 items-start ">
-      <div className="flex flex-col px-2 sticky top-[4em] ">
+      <div className="flex flex-col px-2 ">
           {renderLink({
             linkId: "services",
             route: "/services",
