@@ -62,12 +62,18 @@ const TestimonialCarousel = () => {
                 >
                   Read More
                 </a> */}
-                <a
+                {/* <a
                   href="#"
                   className="text-teal-600 lg:text-[18px] font-semibold mt-4 inline-block mb-[2em] relative hover:underline hover:decoration-green-800 hover:underline-offset-4 focus:underline focus:decoration-green-800 focus:underline-offset-4"
                 >
                   Read More
-                </a>
+                </a> */}
+                <Link
+  to={testimonials[currentIndex].link}
+  className="text-teal-600 lg:text-[18px] font-semibold mt-4 inline-block mb-[2em] relative hover:underline hover:decoration-green-800 hover:underline-offset-4 focus:underline focus:decoration-green-800 focus:underline-offset-4"
+>
+  Read More
+</Link>
               </div>
               <img
                 src={img.url}
@@ -127,12 +133,19 @@ const TestimonialCarousel = () => {
               <p className="text-gray-600 mb-[0.5em] text-[16px]  mt-[1em] font- normal px-[em]">
                 {description}
               </p>
-              <a
+              {/* <a
                 href="#"
                 className="text-teal-600 text-[18px] font-semibold mt-4 inline-block  mb-[2em] px-[em]"
               >
                 Read More
-              </a>
+              </a> */}
+              <Link
+  to={testimonials[currentIndex].link}
+  className="text-teal-600 text-[16px] sm:text-[18px] font-semibold mt-4 inline-block mb-8 px-4 hover:underline hover:decoration-green-800 hover:underline-offset-4 focus:underline focus:decoration-green-800 focus:underline-offset-4"
+>
+  Read More
+</Link>
+
             </div>
           </div>
         </div>

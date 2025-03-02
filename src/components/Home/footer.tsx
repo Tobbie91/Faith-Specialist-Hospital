@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="flex flex-col pt-[2em] mb-8 font-medium">
           <FaithIcon />
           <p className="lg:text-[16px] text-[white] mb-4 mt-8 ">
-            Address: Plot 5 Block 2, Ogun State <br /> housing estate, off
-            Idiroko expressway, <br /> Ota, Ogun State.
+            Address: Plot 5 Block 2,Road 1, Ogun State <br /> housing estate,
+            Idiroko road, <br /> Ota, Ogun State.
           </p>
           <p className="lg:text-[16px] text-[white] mb-4">
             Email: info@faithspecialit.com
@@ -75,8 +75,8 @@ const Footer = () => {
         <div className="flex flex-col pt-[2em] mb-8 mt-[1em]">
           <FaithIcon />
           <p className="lg:text-[16px] text-[white] mb-4 mt-8">
-            Address: Plot 5 Block 2, Ogun State <br /> housing estate, off
-            Idiroko expressway, <br /> Ota, Ogun State.
+            Address: Plot 5 Block 2, Road 1, Ogun State <br /> housing estate,
+            Idiroko road <br /> Ota, Ogun State.
           </p>
           <p className="lg:text-[16px] text-[white] mb-4">
             Email: info@faithspecialit.com

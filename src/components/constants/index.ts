@@ -177,6 +177,7 @@ export const testimonials = [
       url: Grace3,
       alt: "do6",
     },
+    link: "/patientstory/",
   },
   {
     id: 2,
@@ -186,6 +187,7 @@ export const testimonials = [
       url: Daniel2,
       alt: "do6",
     },
+    link: "/stories/",
   },
   {
     id: 3,
@@ -195,6 +197,7 @@ export const testimonials = [
       url: Grace3,
       alt: "do6",
     },
+    link: "/patientstory/",
   },
 ];
 
